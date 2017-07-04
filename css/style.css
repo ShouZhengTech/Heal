@@ -4379,7 +4379,7 @@ section h3 {
 
 .what-is-heal p {
     color: #808c93;
-    max-width: 207px;
+    /*max-width: 207px;*/
     display: block;
     margin-left: auto;
     margin-right: auto;

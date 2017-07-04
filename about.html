@@ -1,0 +1,741 @@
+<!doctype html>
+<!--[if lt IE 9]>
+<html class="no-js lt-ie9" lang="en">
+   <![endif]-->
+   <!--[if gt IE 9]><!-->
+   <html class="no-js" lang="en">
+      <!--<![endif]-->
+      <head>
+         <meta charset="utf-8" />
+         <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+         <meta http-equiv="X-UA-Compatible" content="IE=edge">
+         <meta name="description" content="Heal brings a caring, licensed, background-checked pediatrician or family doctor to your home in under 60 minutes for $99. Available in Los Angeles, Orange County, San Francisco and San Diego.">
+         <meta name="apple-itunes-app" content="app-id=961252579">
+         <meta property="og:title" content="Heal - Doctor house calls for adults and kids" />
+         <meta property="og:site_name" content="Heal" />
+         <meta property="og:description" content="Heal brings a caring, licensed, background-checked pediatrician or family doctor to your home in under 60 minutes for $99. Available in Los Angeles, Orange County, San Francisco and San Diego.">
+         <meta property="fb:app_id" content="729166527179211" />
+         <meta property="og:image" content="https://heal.com/facebook.jpg" />
+
+         <meta name="p:domain_verify" content="3ecff72b0bd6d3808eec941de8a60099"/>
+         <title>Heal - Doctor house calls for adults and kids in Los Angeles, Orange County, San Francisco and San Diego</title>
+         <link rel="icon" type="image/png" href="/favicon.png" />
+         <link rel="stylesheet" href="css/static.css?1496820652">
+         <link rel="stylesheet" href="css/about.css?1496820652">
+         <link rel="stylesheet" href="css/common.css?1496820652">
+         <!-- load modernizr blocking to prevent flicker of unstyled content -->
+         <script src="/js/modernizr.min.js"></script>
+
+         <!-- inline script.js script loader to save http request, load other js asynchronously as soon as possible -->
+         <script>
+            /*!
+             * $script.js JS loader & dependency manager
+             * https://github.com/ded/script.js
+             * (c) Dustin Diaz 2014 | License MIT
+             */
+            (function(e,t){typeof module!="undefined"&&module.exports?module.exports=t():typeof define=="function"&&define.amd?define(t):this[e]=t()})("$script",function(){function p(e,t){for(var n=0,i=e.length;n<i;++n)if(!t(e[n]))return r;return 1}function d(e,t){p(e,function(e){return!t(e)})}function v(e,t,n){function g(e){return e.call?e():u[e]}function y(){if(!--h){u[o]=1,s&&s();for(var e in f)p(e.split("|"),g)&&!d(f[e],g)&&(f[e]=[])}}e=e[i]?e:[e];var r=t&&t.call,s=r?t:n,o=r?e.join(""):t,h=e.length;return setTimeout(function(){d(e,function t(e,n){if(e===null)return y();e=!n&&e.indexOf(".js")===-1&&!/^https?:\/\//.test(e)&&c?c+e+".js":e;if(l[e])return o&&(a[o]=1),l[e]==2?y():setTimeout(function(){t(e,!0)},0);l[e]=1,o&&(a[o]=1),m(e,y)})},0),v}function m(n,r){var i=e.createElement("script"),u;i.onload=i.onerror=i[o]=function(){if(i[s]&&!/^c|loade/.test(i[s])||u)return;i.onload=i[o]=null,u=1,l[n]=2,r()},i.async=1,i.src=h?n+(n.indexOf("?")===-1?"?":"&")+h:n,t.insertBefore(i,t.lastChild)}var e=document,t=e.getElementsByTagName("head")[0],n="string",r=!1,i="push",s="readyState",o="onreadystatechange",u={},a={},f={},l={},c,h;return v.get=m,v.order=function(e,t,n){(function r(i){i=e.shift(),e.length?v(i,r):v(i,t,n)})()},v.path=function(e){c=e},v.urlArgs=function(e){h=e},v.ready=function(e,t,n){e=e[i]?e:[e];var r=[];return!d(e,function(e){u[e]||r[i](e)})&&p(e,function(e){return u[e]})?t():!function(e){f[e]=f[e]||[],f[e][i](t),n&&n(r)}(e.join("|")),v},v.done=function(e){v([null],e)},v});
+
+            // Minified browser detection, based on http://stackoverflow.com/a/9851769
+            !function(e,o){var t=!!e.opera||navigator.userAgent.indexOf(" OPR/")>=0,n="undefined"!=typeof InstallTrigger,r=Object.prototype.toString.call(e.HTMLElement).indexOf("Constructor")>0,f=!!e.chrome&&!t,i=/*@cc_on!@*/0||!!o.documentMode,c=o.documentElement;c.className=c.className+" "+(t?"opera":n?"firefox":r?"safari":f?"chrome":i?"ie":"")}(window,document);
+         </script>
+         <!-- start loading sitewide (global) js now - do it asynchronously! -->
+         <script>
+            /* Polyfill - Enable matchMedia in browsers without support */
+            if (!window.matchMedia) { $script('js/media.match.min.js', function () { $script.done('matchMedia'); }); } else { $script.done('matchMedia'); }
+
+            // Simple State Manager (js media queries)
+            $script('js/ssm.min.js?1496820652', 'ssm');
+
+            // jQuery
+            $script('js/jquery.min.js?1496820652', 'jQuery');
+
+            $script('js/classie.js?1496820652','Classie');
+
+            // Scripts with jQuery dependencies
+            $script.ready('jQuery',function(){
+                // Bootstrap
+                $script('js/bootstrap.min.js?1496820652','Bootstrap');
+                // jQuery UI
+                $script('js/jquery-ui.min.js?1496820652', 'jQuery UI');
+
+                    $script('js/slick.min.js?1496820652', 'jQuery Slick');
+            });
+
+            // Concatenated jQuery/bootstrap plugins
+            $script.ready(['jQuery', 'jQuery UI', 'Bootstrap'],function(){
+                $script('js/static.js?1496820652', 'Static');
+                $script('js/jquery.webui-popover.js?1496820652','jQuery WebUI Popover');
+                $script('js/bootstrap-select.min.js?1496820652','Bootstrap Select');
+
+                $script('js/jquery.ui.touch-punch.min.js?1496820652', 'jQuery UI Touch Punch');
+                $script('js/modalEffects.js?1496820652','Modal Effects');
+                $script('js/metrics.js?1496820652','Metrics');
+
+            });
+            $script.ready(['jQuery', 'jQuery UI', 'jQuery Slick', 'Bootstrap', 'jQuery WebUI Popover', 'Bootstrap Select'],function(){
+              $script('js/about.js?1496820652', 'About');
+            });
+            // Polyfills, etc
+              $script('js/picturefill.min.js?1496820652','Picturefill');
+            var polyfilter_scriptpath = '/js/';
+
+            $script('js/cssParser.js?1496820652','CSS Parser');
+            $script('js/css-filters-polyfill.js?1496820652','CSS Filters Polyfill');
+            $script('js/retina.min.js?1496820652','Retina');
+
+
+         </script>
+         <!--[if gte IE 9]>
+         <style type="text/css">
+            .gradient {
+            filter: none;
+            }
+         </style>
+         <![endif]-->
+      </head>
+      <body class="about-page">
+         <header id="full-window-header" class="l-header" id="page-top">
+            <div class="header-image"></div>
+            <div class="color-cover">
+              <h1 class="centerXY">About Heal</h1>
+            </div>
+            <div class="fixedtop-wrapper">
+               <div class="fluid-container">
+                  <nav class="row">
+                     <div class="logo col-xs-8 col-sm-3">
+                        <a href="/">
+                        <i class="logo-icon sprite-logo"></i>
+                        </a>
+                        <div class="center">1-844-644-4325 (HEAL)</div>
+                     </div>
+                     <div class="col-xs-4 col-sm-9">
+                        <nav class="right-top-nav">
+                           <!--span class="hidden-xs phone-number">1-844-644-HEAL</span>
+                           <a href="tel:+18446444325" class="phone-icon">
+                           <i class="img-phone-icon"></i>
+                           </a-->
+                           <a id="topnav-requestdoctor-requestdoctor" href="https://patient.heal.com/register" class="hidden-xs btn-2">Request doctor</a>
+                           <a href="#" class="nav-icon md-trigger" data-modal="menu-modal">
+                           <i class="sprite-nav-icon"></i>
+                           </a>
+                        </nav>
+                     </div>
+                  </nav>
+               </div>
+            </div>
+         </header>
+         <section class="about-quote">
+            <div class="container">
+               <div class="text-center quote-box">
+                  <div class="left-quote">
+                     <img src="images/leftquotation.png" />
+                  </div>
+                  <div class="quote">
+                     <a target="blank">
+                        <h4>
+                           We want to be your family’s first choice for healthcare. When you’re
+                           sick or when you’re well, Heal was created to make it easy and
+                           affordable to see a great doctor on your schedule.
+                        </h4>
+                     </a>
+                  </div>
+                  <div class="right-quote">
+                     <img src="images/rightquotation.png" />
+                  </div>
+               </div>
+               <div class="name text-center">
+                 Dr. Renee Dua
+               </div>
+               <div class="title text-center">
+                 Founder &amp; Chief Medical Officer
+               </div>
+            </div>
+         </section>
+         <hr>
+         <section id="core-team" class="team">
+            <div class="container">
+               <div class="row">
+                  <div class="col-sm-12">
+                     <h3>
+                        Core team
+                     </h3>
+                  </div>
+               </div>
+               <div class="row">
+                  <div class="col-sm-12">
+                     <ul class="team-members">
+                        <li>
+                           <div class="inner-wrapper" data-title="Dr. Renee Dua, MD" data-content="
+                              <span>Founder &amp; Chief Medical Officer</span>
+                              <p>Dr. Dua is board certified in nephrology, hypertension and internal medicine and served as Chief of Medicine at Valley Presbyterian and Simi Valley Hospitals. She completed her BS in Biochemistry at UC San Diego, her MD at Rosalind Franklin University, her residency at UCLA and her fellowship in nephrology at USC. Renee and her husband are enjoying the travails of being parents to a rambunctious 1 year old boy.</p>">
+                              <img class="a" src="uploads/team/renee_dua.png" srcset="uploads/team/renee_dua@2x.png 2x, uploads/team/renee_dua.png 1x" />
+                              <img class="b" src="uploads/team/renee_dua_hover.png" srcset="uploads/team/renee_dua_hover@2x.png 2x, uploads/team/renee_dua_hover.png 1x" />
+                           </div>
+                        </li>
+                        <li>
+                           <div class="inner-wrapper" data-title="Nick Desai" data-content="
+                              <span>Founder &amp; Chief Executive Officer</span>
+                              <p>Nick is a serial tech entrepreneur leading vision, strategy, recruiting, and fundraising for Heal. He's raised over $47 million in venture capital for his four start-ups since 1998. Most recently, Nick was CEO of FitOrbit – the leader in internet-based weight loss coaching solutions funded by Spark Capital and health insurance giant Anthem Blue Cross. Nick holds a BS in Electrical and Computer Engineering from UC Irvine and an MS in Electrical Engineering from UCLA. He lives in the Pacific Palisades with his wife and one year old son - who is his pride and joy.</p>">
+                              <img class="a" src="uploads/team/nick_desai.png" srcset="uploads/team/nick_desai@2x.png 2x, uploads/team/nick_desai.png 1x" />
+                              <img class="b" src="uploads/team/nick_desai_hover.png" srcset="uploads/team/nick_desai_hover@2x.png 2x, uploads/team/nick_desai_hover.png 1x" />
+                           </div>
+                        </li>
+                        <li>
+                           <div class="inner-wrapper" data-title="Claudio Martins" data-content="
+                              <span>Lead Engineer</span>
+                              <p>Claudio leads the Engineering team at Heal. With more than 12 years of experience in the mobile space, Claudio has helped mobile networks deploy billing platforms, GSM and 3G networks, VAS Services, and web and native applications. Claudio previously served in technical management roles at Concrete Solutions, Claro Brasil, Saudi Telecom, MarocTelecom and SafariCom.</p>">
+                              <img class="a" src="uploads/team/claudio_martins.png" srcset="uploads/team/claudio_martins@2x.png 2x, uploads/team/claudio_martins.png 1x" />
+                              <img class="b" src="uploads/team/claudio_martins_hover.png" srcset="uploads/team/claudio_martins_hover@2x.png 2x, uploads/team/claudio_martins_hover.png 1x" />
+                           </div>
+                        </li>
+
+                        <li>
+                           <div class="inner-wrapper" data-title="Nick Aubin" data-content="
+                              <span>Director of Business Development</span>
+                              <p>Nick is focused on Enterprise and Healthcare Partnerships at Heal. Previously, Nick was a Strategic Planner at Zenith Media where he worked with 20th Century Fox and Dreamworks Animation to advertise the studios’ theatrical releases. Nick graduated from Colby College with a B.A. in International Studies, where he also played on the varsity soccer team.</p>">
+                              <img class="a" src="uploads/team/nick_aubin.png" srcset="uploads/team/nick_aubin@2x.png 2x, uploads/team/nick_aubin.png 1x" />
+                              <img class="b" src="uploads/team/nick_aubin_hover.png" srcset="uploads/team/nick_aubin_hover@2x.png 2x, uploads/team/nick_aubin_hover.png 1x" />
+                           </div>
+                        </li>
+                        <li>
+                           <div class="inner-wrapper" data-title="Tiago Lopes" data-content="
+                              <span>Senior Software Engineer</span>
+                              <p>Tiago is a Senior Mobile Engineer with proven experience in architecture and development of mobile apps. Since 2005, Tiago has worked on apps for high profile clients across a host of mobile platforms. Tiago has a fine eye for detail and a passion for great mobile design and user experience.</p>">
+                              <img class="a" src="uploads/team/tiago_lopes.png" srcset="uploads/team/tiago_lopes@2x.png 2x, uploads/team/tiago_lopes.png 1x" />
+                              <img class="b" src="uploads/team/tiago_lopes_hover.png" srcset="uploads/team/tiago_lopes_hover@2x.png 2x, uploads/team/tiago_lopes_hover.png 1x" />
+                           </div>
+                        </li>
+                        <li>
+                           <div class="inner-wrapper" data-title="Peter Klein" data-content="
+                              <span>Director of Product</span>
+                              <p>Peter is responsible for Product and User Experience at Heal. Before joining the Heal team, he was Head of Product for Zirtual (a Vegas Tech Fund company), and before that served as Head of Product &amp; Operations for Original Life in Shanghai. Peter spent the first 5 years of his career with Google as a Product Manager and Engineer working on Privacy and Security with all of Google's major products. Prior to Google, Peter received a full academic scholarship to the University of Georgia where he received a B.A. in Political Science &amp; Sociology.</p>">
+                              <img class="a" src="uploads/team/peter_klein.jpg" srcset="uploads/team/peter_klein@2x.jpg 2x, uploads/team/peter_klein.jpg 1x" />
+                              <img class="b" src="uploads/team/peter_klein_hover.jpg" srcset="uploads/team/peter_klein_hover@2x.jpg 2x, uploads/team/peter_klein_hover.jpg 1x" />
+                           </div>
+                        </li>
+                        <li>
+                           <div class="inner-wrapper" data-title="Slava Pak" data-content="
+                              <span>QA Engineer</span>
+                              <p>Slava is a Quality Assurance engineer at Heal. He is responsible for ensuring the overall quality and reliability of web and mobile application delivered by Heal. Slava has more than 10 years of experience in Information Technology field and holds a BS degree in Computer Science. Prior to Heal he spent eight years at Citibank serving in various IT roles.</p>">
+                              <img class="a" src="uploads/team/slava_pak.png" srcset="uploads/team/slava_pak@2x.png 2x, uploads/team/slava_pak.png 1x" />
+                              <img class="b" src="uploads/team/slava_pak_hover.png" srcset="uploads/team/slava_pak_hover@2x.png 2x, uploads/team/slava_pak_hover.png 1x" />
+                           </div>
+                        </li>
+
+
+                        <li>
+                           <div class="inner-wrapper" data-title="Andreaus Robinson" data-content="
+                              <span>Senior Software Engineer</span>
+                              <p>Andreaus Robinson is a Senior Developer at Heal. Andreaus brings over 10 years of experience to the Heal team and the insight that he’s gained from working for various companies in different industries. He develops custom made internal solutions which help manage day to day operations at Heal.</p>">
+                              <img class="a" src="uploads/team/andreaus.jpg" srcset="uploads/team/andreaus@2x.jpg 2x, uploads/team/andreaus.jpg 1x" />
+                              <img class="b" src="uploads/team/andreaus_hover.jpg" srcset="uploads/team/andreaus_hover@2x.jpg 2x, uploads/team/andreaus_hover.jpg 1x" />
+                           </div>
+                        </li>
+                     </ul>
+                     <div id="team-labels" class="slick-labels hidden">
+                        <div>
+                           <div class="name">Dr. Renee Dua, MD</div>
+                           <div class="title">Founder &amp; Chief Medical Officer</div>
+                        </div>
+                        <div>
+                           <div class="name">Nick Desai</div>
+                           <div class="title">Founder &amp; Chief Executive Officer</div>
+                        </div>
+                        <div>
+                           <div class="name">Claudio Martins</div>
+                           <div class="title">Chief Engineer</div>
+                        </div>
+                        <div>
+                           <div class="name">Nick Aubin</div>
+                           <div class="title">Program Manager, Insurance &amp; Enterprise</div>
+                        </div>
+                        <div>
+                           <div class="name">Tiago Lopes</div>
+                           <div class="title">Senior Software Engineer</div>
+                        </div>
+                        <div>
+                           <div class="name">Peter Klein</div>
+                           <div class="title">Director of Product</div>
+                        </div>
+                        <div>
+                           <div class="name">Slava Pak</div>
+                           <div class="title">QA Engineer</div>
+                        </div>
+                        <div>
+                           <div class="name">Andreaus Robinson</div>
+                           <div class="title">Senior Software Engineer</div>
+                        </div>
+
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </section>
+         <hr>
+         <section class="team">
+            <div class="container">
+               <div class="row">
+                  <div class="col-sm-12">
+                     <h3>
+                        Investors
+                     </h3>
+                  </div>
+               </div>
+               <div class="row investors">
+
+                <div class="col-sm-3 col-xs-12">
+                </div>
+                  <div class="col-sm-3 col-xs-12">
+                     <div class="boxed">
+                        <a href="https://angel.co/slow-ventures" target="blank">
+                           <img class="centerXY" src="uploads/investors/slowventures.png" srcset="uploads/investors/slowventures@2x.png 2x, uploads/investors/slowventures.png 1x" />
+                        </a>
+                     </div>
+                  </div>
+                  <div class="col-sm-3 col-xs-12">
+                     <div class="boxed">
+                        <a href="http://www.tidecrestcapital.com/" target="blank">
+                           <img class="centerXY" src="uploads/investors/tidecrest.png" srcset="uploads/investors/tidecrest@2x.png 2x, uploads/investors/tidecrest.png 1x" />
+                        </a>
+                     </div>
+                  </div>
+                  <div class="col-sm-3 col-xs-12">
+                  </div>
+               </div>
+
+               <div class="row investors-individual">
+                  <div class="col-md-4 col-sm-4 col-xs-12">
+                     <div class="name">Paul Jacobs</div>
+                     <div class="title">Executive Chairman, Qualcomm</div>
+                  </div>
+                  <div class="col-md-4 col-sm-4 col-xs-12">
+                     <div class="name">Lionel Richie</div>
+                     <div class="title">Oscar &amp; Grammy Winning Artist</div>
+                  </div>
+                  <div class="col-md-4 col-sm-4 col-xs-12">
+                     <div class="name">Stephen Rader</div>
+                     <div class="title">Co-Founder &amp; Managing General Partner, Clarity Partners</div>
+                  </div>
+               </div>
+            </div>
+         </section>
+         <hr>
+         <section id="board-advisors" class="team">
+            <div class="container">
+               <div class="row">
+                  <div class="col-sm-12">
+                     <h3>
+                        Board &amp; Advisors
+                     </h3>
+                  </div>
+               </div>
+               <div class="row">
+                  <div class="col-sm-12">
+                     <ul class="directors-advisors">
+                        <li>
+                           <div class="inner-wrapper" data-title="Michael Wortsman" data-content="
+                              <span>Chairman and Founding Investor</span>
+                              <p>Michael is a private venture investor focused on media, technology and healthcare. He was President of Univision, Chairman of Fisher Communications, Chairman and CEO of ImpreMedia, board member of Entravision Communications, and board member of the National Broadcasters Association. Michael also creates and produces content for the internet, TV and movies. He’s married and has two adult daughters.</p>">
+                              <img class="a" src="uploads/board_advisors/michael_wortsman.png" srcset="uploads/board_advisors/michael_wortsman@2x.png 2x, uploads/board_advisors/michael_wortsman.png 1x" />
+                              <img class="b" src="uploads/board_advisors/michael_wortsman_hover.png" srcset="uploads/board_advisors/michael_wortsman_hover@2x.png 2x, uploads/board_advisors/michael_wortsman_hover.png 1x" />
+                           </div>
+                        </li>
+                        <li>
+                           <div class="inner-wrapper" data-title="Dr. Michael Madanat, MD, MBA" data-content="
+                              <span>Founding Investor and Board Member</span>
+                              <p>Dr. Madanat is President of Foothill Pediatric &amp; Adolescent Clinic in San Gabriel Valley, Chairman of Pediatrics at Foothill Presbyterian Hospital and Vice Chairman of Pediatrics at San Dimas Community Hospital. He completed his internship and residency in pediatrics at UCLA Medical Center, earned his MD and MBA in Healthcare Management at Tufts, and received a Master’s degree in physiology and biophysics from Georgetown. Dr. Madanat holds a Bachelor’s degree in psychology from UCSD.</p>">
+                              <img class="a" src="uploads/board_advisors/michael_madanat.png" srcset="uploads/board_advisors/michael_madanat@2x.png 2x, uploads/board_advisors/michael_madanat.png 1x" />
+                              <img class="b" src="uploads/board_advisors/michael_madanat_hover.png" srcset="uploads/board_advisors/michael_madanat_hover@2x.png 2x, uploads/board_advisors/michael_madanat_hover.png 1x" />
+                           </div>
+                        </li>
+                        <li>
+                           <div class="inner-wrapper" data-title="Dr. Bart Wald, MD" data-content="
+                              <span>Advisor</span>
+                              <p>Dr. Wald is the former Regional Physician Chief Executive at Providence Health and Services of Southern California. He was the founding CEO of Physician Associates IPA. He received his MD from SUNY-Downstate, an MBA from Pepperdine University, and is board certified in pediatrics and pediatric hematology-oncology.</p>">
+                              <img class="a" src="uploads/board_advisors/bart_wald.png" srcset="uploads/board_advisors/bart_wald@2x.png 2x, uploads/board_advisors/bart_wald.png 1x" />
+                              <img class="b" src="uploads/board_advisors/bart_wald_hover.png" srcset="uploads/board_advisors/bart_wald_hover@2x.png 2x, uploads/board_advisors/bart_wald_hover.png 1x" />
+                           </div>
+                        </li>
+                        <li>
+                           <div class="inner-wrapper" data-title="Amy Cohn" data-content="
+                              <span>Advisor</span>
+                              <p>Amy is Executive Dir of Apps and Emerging Platforms for Sony Pictures Entertainment.  She was the former Head of Product at Oprah.com, overseeing the digital strategy and mobile apps for the tv network and the magazine.  Prior to that, Amy was Product Lead for Disney's ABC TV Digital Media Group and has helmed multiple mobile, social & digital initiatives that have won Interactive Emmy, Webby &amp; SXSW awards. She lives in LA with her husband and two young daughters.</p>">
+                              <img class="a" src="uploads/board_advisors/amy_cohn.png" srcset="uploads/board_advisors/amy_cohn@2x.png 2x, uploads/board_advisors/amy_cohn.png 1x" />
+                              <img class="b" src="uploads/board_advisors/amy_cohn_hover.png" srcset="uploads/board_advisors/amy_cohn_hover@2x.png 2x, uploads/board_advisors/amy_cohn_hover.png 1x" />
+                           </div>
+                        </li>
+                     </ul>
+                     <div id="board-labels" class="slick-labels hidden">
+                        <div>
+                           <div class="name">Michael Wortsman</div>
+                           <div class="title">Chairman and Founding Investor</div>
+                        </div>
+                        <div>
+                           <div class="name">Dr. Michael Madanat, MD, MBA</div>
+                           <div class="title">Founding Investor and Board Member</div>
+                        </div>
+                        <div>
+                           <div class="name">Charles Huang</div>
+                           <div class="title">Advisor</div>
+                        </div>
+                        <div>
+                           <div class="name">Dr. Bart Wald, MD</div>
+                           <div class="title">Advisor</div>
+                        </div>
+                        <div>
+                           <div class="name">Amy Cohn</div>
+                           <div class="title">Advisor</div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </section>
+         <hr>
+         <section class="team">
+            <div class="container">
+               <div class="row">
+                  <div class="col-sm-12">
+                     <h3>
+                        Partners
+                     </h3>
+                  </div>
+               </div>
+               <div class="row partners">
+                  <div class="col-md-3 col-sm-4 col-xs-12">
+                     <div class="boxed">
+                        <a href="http://www.alivecor.com" target="blank">
+                           <img class="centerXY" src="uploads/partners/alivecor.png" srcset="uploads/partners/alivecor@2x.png 2x, uploads/partners/alivecor.png 1x" />
+                        </a>
+                     </div>
+                  </div>
+                  <div class="col-md-3 col-sm-4 col-xs-12">
+                     <div class="boxed">
+                        <a href="https://www.cellscope.com/" target="blank">
+                           <img class="centerXY" src="uploads/partners/cellscope.png" srcset="uploads/partners/cellscope@2x.png 2x, uploads/partners/cellscope.png 1x" />
+                        </a>
+                     </div>
+                  </div>
+                  <div class="col-md-3 col-sm-4 col-xs-12">
+                     <div class="boxed">
+                        <a href="https://www.kinsahealth.com/" target="blank">
+                           <img class="centerXY" src="uploads/partners/kinsa.png" srcset="uploads/partners/kinsa@2x.png 2x, uploads/partners/kinsa.png 1x" />
+                        </a>
+                     </div>
+                  </div>
+                  <div class="col-md-3 col-sm-4 col-xs-12">
+                     <div class="boxed">
+                        <a href="https://www.drchrono.com" target="blank">
+                           <img class="centerXY" src="uploads/partners/drchrono.png" srcset="uploads/partners/drchrono@2x.png 2x, uploads/partners/drchrono.png 1x" />
+                        </a>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </section>
+         <section id="work-with-us">
+            <div class="work-with-us-image"></div>
+            <div class="color-cover">
+               <div class="centerXY">
+                 <h1>Want to work with us?</h1>
+                 <a href="/#contact">
+                    <button class="btn transparent-btn">Get in touch</button>
+                 </a>
+               </div>
+            </div>
+         </section>
+         <footer class="l-footer">
+  <input id="patient-portal-link" type="hidden" value="https://patient.heal.com/register" />
+   <div class="fluid-container">
+      <div class="row">
+        <div class="links-container">
+          <ul>
+            <li class="links-group">
+              <ul>
+                <li><strong>Service</strong><hr></li>
+                <li><a id="footer-service-whatisheal"  href="/#what-is-heal">What is Heal</a></li>
+                <li><a id="footer-service-gettheapp"  href="/#get-the-heal-app">Get the app</a></li>
+                <li><a id="footer-service-whentouseheal"  href="/#when-to-use-heal">When to use Heal</a></li>
+                <li><a id="footer-service-whyuseheal" href="/why.php">Why use Heal</a></li>
+                <li><a id="footer-service-doctors"  href="/#qualified-doctors">Doctors</a></li>
+                <li><a id="footer-service-healstories"  href="/#heal-stories">Heal stories</a></li>
+
+              </ul>
+            </li>
+            <li class="links-group">
+              <ul>
+                <li><strong>Company</strong><hr></li>
+                <li><a id="footer-company-aboutus" href="/about.php">About us</a></li>
+                <li><a id="footer-company-blog" href="http://blog.getheal.com/">Blog</a></li>
+                <li><a id="footer-company-pricing"  href="/#simple-pricing">Pricing</a></li>
+                <li><a id="footer-company-press"  href="/#press">Press</a></li>
+                <li><a id="footer-company-careers" href="https://boards.greenhouse.io/heal">Careers</a></li>
+              </ul>
+            </li>
+            <li class="links-group">
+              <ul>
+                <li><strong>Support</strong><hr></li>
+                <li><a id="footer-support-contactus"  href="/#contact">Contact us</a></li>
+                <li><a id="footer-support-help" href="http://help.heal.com/hc/en-us">Help</a></li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+        <div class="links-stores">
+          <a id="footer-appinstall-googleplay" href="http://go.gethe.al/android?">
+            <div class="store android"></div>
+          </a>
+          <a id="footer-appinstall-appstore" href="http://go.gethe.al/ios?">
+            <div class="store ios"></div>
+          </a>
+        </div>
+      </div>
+
+      <hr />
+      <div class="row">
+        <div class="col-sm-6 col-sm-push-3">
+          <ul class="social">
+             <li>
+                <a href="https://www.facebook.com/heal">
+                <i class="sprite-fb_icon"></i>
+                </a>
+             </li>
+             <li>
+                <a href="https://twitter.com/healapp">
+                <i class="sprite-tw_icon"></i>
+                </a>
+             </li>
+             <li>
+                <a href="http://instagram.com/getheal">
+                <i class="sprite-instagram_icon"></i>
+                </a>
+             </li>
+             <!--li>
+                <a href="https://www.pinterest.com/getheal/">
+                <i class="sprite-pinterest_icon"></i>
+                </a>
+             </li-->
+             <li>
+                <a href="https://www.youtube.com/user/healapp">
+                <i class="sprite-yt_icon"></i>
+                </a>
+             </li>
+
+             <!--
+             <li>
+                <a href="https://plus.google.com/111273369815702166490" rel="publisher" style="visibility: hidden;">
+                <i class="sprite-gp_icon"></i>
+                </a>
+             </li>
+             <li class="btn-md-wrapper">
+                <a href="#" class="btn-3 md-trigger" data-modal="get-modal">Get the app</a>
+             </li>
+             -->
+          </ul>
+        </div>
+      </div>
+
+       <div class="row">
+         <div class="col-sm-12" align="center">
+            <div class="copyright-wrapper">
+               <ul class="copyright">
+                  <li>
+                     Copyright &copy; Heal, Inc. 2015
+                  </li>
+                  <li>
+                     <a href="/privacy.php">
+                     Privacy Policy
+                     </a>
+                  </li>
+                  <li>
+                     <a href="/practices.php">
+                     Privacy Practices
+                     </a>
+                  </li>
+                  <li>
+                     <a href="/terms.php">
+                     Terms
+                     </a>
+                  </li>
+                  <li>
+                     <a href="/nondiscrimination.php">
+                     Nondiscrimination Notice
+                     </a>
+                  </li>
+               </ul>
+            </div>
+         </div>
+      </div>
+      <div class="row">
+         <div class="col-sm-6 col-sm-push-3">
+            <a target="_blank" href="http://builtinla.com">
+              <i class="built-in-la sprite-builtla_icon"></i>
+            </a>
+         </div>
+       </div>
+   </div>
+</footer>
+
+<script src="//load.sumome.com/" data-sumo-site-id="ade846f18db1878eb344fd28170c45f90c022dd53934e7f00a375f6547d106f4" async="async"></script>
+<script src="//cdn.optimizely.com/js/4564940031.js"></script>
+         <div class="md-modal md-effect-12 heal-modal" id="menu-modal">
+   <div class="md-content-wrapper">
+      <div class="md-close-wrapper">
+         <button class="md-close">
+         <i class="sprite-close_icon"></i>
+         </button>
+      </div>
+      <div class="md-content">
+        <div class="links-container">
+          <ul>
+            <li class="links-group">
+              <ul>
+                <li><strong>Service</strong><hr></li>
+                <li><a id="topnav-service-whatisheal"  href="/#what-is-heal">What is Heal</a></li>
+                <li><a id="topnav-service-getthehealapp"  href="/#get-the-heal-app">Get the app</a></li>
+                <li><a id="topnav-service-whentouseheal"  href="/#when-to-use-heal">When to use Heal</a></li>
+                <li><a id="topnav-service-whyuseheal" href="/why.php">Why use Heal</a></li>
+                <li><a id="topnav-service-doctors"  href="/#qualified-doctors">Doctors</a></li>
+                <li><a id="topnav-service-healstories"  href="/#heal-stories">Heal stories</a></li>
+
+              </ul>
+            </li>
+            <li class="links-group">
+              <ul>
+                <li><strong>Company</strong><hr></li>
+                <li><a id="topnav-company-aboutus" href="/about.php">About us</a></li>
+                <li><a id="topnav-company-blog" href="http://healhq.tumblr.com/">Blog</a></li>
+                <li><a id="topnav-company-pricing"  href="/#simple-pricing">Pricing</a></li>
+                <li><a id="topnav-company-press"  href="/#press">Press</a></li>
+                <li><a id="topnav-company-careers" href="https://boards.greenhouse.io/heal">Careers</a></li>
+              </ul>
+            </li>
+            <li class="links-group">
+              <ul>
+                <li><strong>Support</strong><hr></li>
+                <li><a id="topnav-support-contactus"  href="/#contact">Contact us</a></li>
+                <li><a id="topnav-support-help" href="http://help.heal.com/">Help</a></li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+        <div class="links-footer">
+         <p> Copyright &copy; Heal, Inc. 2015</p>
+       </div>
+      </div>
+   </div>
+</div>
+         <div class="md-modal md-effect-12" id="get-modal" data-iframeid="get-heal-app-frame" data-iframesrc="https://forms.heal.com/getheal/get_heal_app.html" data-iframewidth="100%">
+            <div class="md-content-wrapper">
+               <div class="md-close-wrapper">
+                  <button class="md-close">
+                  <i class="sprite-close_icon"></i>
+                  </button>
+               </div>
+               <div class="md-content">
+                  <!--iframe id="get-heal-app-frame" frameborder="0" src="" data-src="https://forms.heal.com/getheal/get_heal_app.html" width="100%" height="450"></iframe-->
+               </div>
+            </div>
+         </div>
+         <div class="md-modal md-effect-12" id="get-modal2" data-iframeid="request_invite_frame" data-iframesrc="https://forms.heal.com/let_me_know.html" data-iframewidth="100%">
+            <div class="md-content-wrapper">
+               <div class="md-close-wrapper">
+                  <button class="md-close">
+                  <i class="sprite-close_icon"></i>
+                  </button>
+               </div>
+               <div class="md-content">
+                  <!--iframe id="request_invite_frame" frameborder="0" src="" data-src="https://forms.heal.com/request_invite.html" width="100%" height="450"></iframe-->
+               </div>
+            </div>
+         </div>
+         <div class="md-modal md-effect-12" id="get-modal3" data-iframeid="let_me_know_frame" data-iframesrc="https://forms.heal.com/let_me_know.html" data-iframewidth="100%">
+            <div class="md-content-wrapper">
+               <div class="md-close-wrapper">
+                  <button class="md-close">
+                  <i class="sprite-close_icon"></i>
+                  </button>
+               </div>
+               <div class="md-content">
+                  <!--iframe id="let_me_know_frame" frameborder="0" src="" data-src="https://forms.heal.com/let_me_know.html" width="100%" height="450"></iframe-->
+               </div>
+            </div>
+         </div>
+         <div class="md-modal md-effect-12" id="get-modal5" data-iframeid="let_me_know_frame" data-iframesrc="zip.php" data-iframewidth="100%">
+       		 <div class="md-content-wrapper">
+       				<div class="md-close-wrapper">
+       					 <button class="md-close">
+       					 <i class="sprite-close_icon"></i>
+       					 </button>
+       				</div>
+       				<div class="md-content">
+       					 <!--iframe id="let_me_know_frame" frameborder="0" src="" data-src="https://forms.heal.com/let_me_know.html" width="100%" height="450"></iframe-->
+       				</div>
+       		 </div>
+       	</div>
+         <div class="md-modal md-effect-12" id="get-modal4" data-iframeid="let_me_know_frame" data-iframesrc="https://forms.heal.com/let_me_know_android.html" data-iframewidth="100%">
+            <div class="md-content-wrapper">
+               <div class="md-close-wrapper">
+                  <button class="md-close">
+                  <i class="sprite-close_icon"></i>
+                  </button>
+               </div>
+               <div class="md-content">
+                  <!--iframe id="let_me_know_frame" frameborder="0" src="" data-src="https://forms.heal.com/let_me_know.html" width="100%" height="450"></iframe-->
+               </div>
+            </div>
+         </div>
+         <div class="md-modal md-effect-12" id="vid-modal">
+            <div class="md-content-wrapper">
+               <div class="md-close-wrapper">
+                  <button class="md-close">
+                  <i class="sprite-close_icon"></i>
+                  </button>
+               </div>
+               <div class="md-content">
+                  <!--iframe id="third-vid" class="vid-modal-size" width="500px" height="300px" src="" data-src="https://www.youtube.com/embed/YBCIyo8MrvU" frameborder="0"></iframe-->
+               </div>
+            </div>
+         </div>
+         <div class="md-overlay"></div>
+         <!-- the overlay element -->
+         <!-- Segment.io -->
+<script type="text/javascript">
+  !function(){var analytics=window.analytics=window.analytics||[];if(!analytics.initialize)if(analytics.invoked)window.console&&console.error&&console.error("Segment snippet included twice.");else{analytics.invoked=!0;analytics.methods=["trackSubmit","trackClick","trackLink","trackForm","pageview","identify","group","track","ready","alias","page","once","off","on"];analytics.factory=function(t){return function(){var e=Array.prototype.slice.call(arguments);e.unshift(t);analytics.push(e);return analytics}};for(var t=0;t<analytics.methods.length;t++){var e=analytics.methods[t];analytics[e]=analytics.factory(e)}analytics.load=function(t){var e=document.createElement("script");e.type="text/javascript";e.async=!0;e.src=("https:"===document.location.protocol?"https://":"http://")+"cdn.segment.com/analytics.js/v1/"+t+"/analytics.min.js";var n=document.getElementsByTagName("script")[0];n.parentNode.insertBefore(e,n)};analytics.SNIPPET_VERSION="3.0.1";
+  analytics.load("wMmIZ7jB3ZzEpgBmcbVeowzKUIZNnWOY");
+  analytics.page('About Page Viewed');
+  analytics.ready(function (){
+    ga('require', 'linker'); ga('linker:autoLink', ["patient.heal.com", "heal.com"]);
+  });
+  }}();
+</script>
+         <!-- End Google Analytics -->
+         <!--
+
+            <script type="text/javascript">
+                var _chatlio = _chatlio || [];
+                (function() {
+                    var a, b, c;
+                    a = function(f) {
+                        return function() {
+                            _chatlio.push([f].concat(Array.prototype.slice.call(arguments, 0)))
+                        }
+                    };
+                    b = ["identify", "track"];
+                    for (c = 0; c < b.length; c++) {
+                        _chatlio[b[c]] = a(b[c])
+                    };
+                    var t = document.createElement('script'),
+                            s = document.getElementsByTagName('script')[0];
+                    t.async = true;
+                    t.setAttribute('data-widget-id', '0f89620e-036b-4ad8-6d8f-59757f017c3b');
+                    t.setAttribute('data-embed-version', '1.1');
+                    t.src = 'https://w.chatlio.com/w.chatlio-widget.js';
+                    s.parentNode.insertBefore(t, s);
+                })();
+            </script>
+            -->
+
+
+      </body>
+   </html>
