@@ -1,0 +1,386 @@
+.qualified-doctors{
+  overflow:hidden;
+}
+@media (min-width:768px){
+  .qualified-doctors{
+    height:100%;
+    position:relative;
+  }
+}
+
+.qualified-doctors .full-body .photo{
+  background-color: #e1f0f5;
+  width:100%;
+  height: 100%;
+  min-height: 460px;
+  position: relative;
+}
+.qualified-doctors .full-body .photo img{
+  position: absolute;
+  bottom:0px;
+  left:50%;
+  -webkit-transform:translateX(-50%);
+  -moz-transform:translateX(-50%);
+  -ms-transform:translateX(-50%);
+  -o-transform:translateX(-50%);
+  transform:translateX(-50%);
+}
+
+.qualified-doctors .bios .headshot{
+  position: relative;
+}
+.qualified-doctors .bios .headshot .play-container{
+  width:100%;
+  height:40px;
+  position: absolute;
+  top:110px;
+  visibility: hidden;
+  display: none;
+}
+.qualified-doctors .bios .headshot .play-container a{
+  display:inline-block;
+  width:40px;
+  height:40px;
+  margin:0 auto;
+}
+.qualified-doctors .bios .headshot .play-container .play{
+  width:40px;
+  height:40px;
+}
+
+.qualified-doctors .full-body .photo.with-video{
+  /*cursor: pointer;*/
+}
+.qualified-doctors .full-body .photo .play{
+  background:url('../images/play_icn.png') no-repeat center 60%;
+  position: absolute;
+  height:100%;
+  width:100%;
+  left:0px;
+  top:0px;
+  background-size: 90px 90px;
+
+}
+
+.qualified-doctors .bios .headshot img{
+  margin:0 auto;
+  background-color: #e1f0f5;
+  border-radius: 50%;
+}
+
+.qualified-doctors .bios .bio h4{
+  font-size: 26px;
+  font-weight: 600;
+  color:#4b565c;
+  margin-top:15px;
+  margin-bottom: 15px;
+}
+
+.qualified-doctors .bios .bio span{
+  font-size: 18px;
+  font-weight: lighter;
+  font-style: italic;
+  color:#43b3dd;
+}
+.qualified-doctors .bios .bio p{
+  font-size: 16px;
+  font-weight: lighter;
+  color:#808c93;
+}
+
+/* Showing headshots on desktop */
+#qualified-doctors-section .close-button{
+  display:none;
+  visibility: hidden;
+  text-align: right;
+}
+#qualified-doctors-section .close-button a{
+  color:#818d94;
+  font-weight: 600;
+}
+#qualified-doctors-section .close-button a img{
+  margin-right: 10px;
+}
+
+/* Showing bios on desktop */
+#qualified-doctors-section.fullscreen h3.section-title{
+  display:none;
+  visibility: hidden;
+}
+#qualified-doctors-section.fullscreen .close-button{
+  display:block;
+  visibility: visible;
+}
+
+@media (max-width:767px){
+  #qualified-doctors-section .close-button{
+    display:none;
+    visibility: hidden;
+  }
+
+  .qualified-doctors .bios{
+    padding-left:130px;
+    padding-right:130px;
+  }
+  .qualified-doctors .bios .headshot .play-container{
+    visibility: visible;
+    display: block;
+  }
+  .qualified-doctors .bios .slick-list,.qualified-doctors .bios.slick-slider{
+    overflow: visible !important;
+  }
+  .qualified-doctors .bios .bio{
+    color:rgba(0, 0, 0, 0) !important;
+    opacity: 0.5;
+  }
+  .qualified-doctors .bios .bio.slick-active{
+    color:#000;
+    opacity: 1;
+    min-height: 250px;
+  }
+  .qualified-doctors .bios .bio.slick-active.with-video{
+    /*cursor: pointer;*/
+  }
+  .qualified-doctors .bios .bio h4,.qualified-doctors .bios .bio span{
+    color:transparent;
+    visibility: hidden;
+    display: none;
+  }
+  .qualified-doctors .bios .bio.slick-active h4{
+    font-size: 16px;
+    color:#4b565c;
+    margin-top:25px;
+    margin-bottom: 5px;
+    visibility: visible;
+    display: block;
+  }
+
+  .qualified-doctors .bios .bio.slick-active span{
+    font-size: 12px;
+    color:#43b3dd;
+    visibility: visible;
+    display: block;
+  }
+
+  .qualified-doctors .bios .bio.slick-active .headshot>img{
+    border: 3px solid #f16676;
+  }
+
+  .qualified-doctors .slick-prev, .qualified-doctors .slick-next{
+    visibility: hidden;
+    display:none;
+  }
+}
+.qualified-doctors p.marketing-copy {
+  color: #43b3dd;
+  font-weight: 600;
+  font-size:14px;
+}
+
+@media (max-width:767px){
+  .qualified-doctors .bios{
+    padding-left:150px;
+    padding-right:150px;
+  }
+  .qualified-doctors p.marketing-copy{
+    font-weight: 14px;
+  }
+  .qualified-doctors p.marketing-copy{
+    font-size: 12px;
+  }
+}
+
+@media (max-width:700px){
+  .qualified-doctors .bios{
+    padding-left:110px;
+    padding-right:110px;
+  }
+}
+
+@media (max-width:620px){
+  .qualified-doctors .bios{
+    padding-left:80px;
+    padding-right:80px;
+  }
+}
+@media (max-width:500px){
+  .qualified-doctors .bios{
+    padding-left:40px;
+    padding-right:40px;
+  }
+}
+@media (max-width:400px){
+  .qualified-doctors .bios{
+    padding-left:30px;
+    padding-right:30px;
+  }
+}
+@media (max-width:350px){
+  .qualified-doctors .bios{
+    padding-left:10px;
+    padding-right:10px;
+  }
+}
+@media (max-width:330px){
+  .qualified-doctors .bios{
+    padding-left:0px;
+    padding-right:0px;
+  }
+}
+
+
+
+@media (min-width:768px){
+  .hide-bios{
+    visibility: hidden;
+    display: none;
+  }
+  .qualified-doctors .bios{
+    text-align: left;
+    min-height:420px;
+  }
+  .qualified-doctors #doctor-bios{
+    position: relative;
+    top:40%;
+    -webkit-transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    -o-transform: translateY(-50%);
+    transform: translateY(-50%);
+  }
+  .qualified-doctors .bios .slick-list{
+    margin-left:30px;
+    margin-right:30px;
+  }
+  .qualified-doctors .bios .slick-list, .qualified-doctors .bios .slick-track{
+    height:100%;
+    min-height: 420px;
+    position: relative;
+  }
+  .qualified-doctors .bios .bio{
+    padding-left:30px;
+    padding-right: 30px;
+    padding-top:30px;
+    /*
+    position: relative;
+    top:50%;
+    transform: translateY(-50%);
+    */
+  }
+  .qualified-doctors .bios .headshot img{
+    visibility: hidden;
+    display: none;
+  }
+
+  .qualified-doctors h3{
+    margin:0;
+    height:10%;
+  }
+  .qualified-doctors .headshots-container{
+    height:70%;
+    min-height:320px;
+  }
+
+  .qualified-doctors .footer-note{
+    margin:0;
+    position:absolute;
+    width:100%;
+    bottom:15%;
+  }
+
+
+}
+
+.qualified-doctors .full-body .photo img{
+  margin:0 auto;
+}
+.qualified-doctors .container{
+  height:100%;
+}
+.qualified-doctors .headshots{
+  height:50%;
+  position: relative;
+  top: 40%;
+  -webkit-transform: translateY(-50%);
+  -moz-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  -o-transform: translateY(-50%);
+  transform: translateY(-50%);
+  min-height:332px;
+}
+.qualified-doctors .headshots .slick-list, .qualified-doctors .headshots .slick-track, .qualified-doctors .headshots .slide{
+  height:100%;
+  min-height:320px;
+}
+.qualified-doctors .headshots .doctors-line{
+  height:50%;
+}
+
+.qualified-doctors .headshots .doctors-line .doctor{
+  float:left;
+  display:inline-block;
+  width:20%;
+  margin-bottom:20px;
+}
+
+.qualified-doctors .headshots .doctors-line .doctor img{
+  margin:0 auto;
+  background-color:#e1f0f5;
+  border-radius: 50%;
+  border: 3px solid #fff;
+}
+
+.doctor-photo-width {
+  padding: 0px;
+  margin: 0px 10px;
+  width: 250px !important;  
+}
+
+@media (max-width:991px){
+  .qualified-doctors .headshots .doctors-line .doctor img{
+      -webkit-transform: scale(0.7);
+      -moz-transform: scale(0.7);
+      -ms-transform: scale(0.7);
+      -o-transform: scale(0.7);
+      transform: scale(0.7);
+  }
+
+}
+
+.qualified-doctors .headshots .doctors-line .doctor a:hover img{
+  border: 3px solid #f16676;
+}
+
+.qualified-doctors .slick-prev, .qualified-doctors .slick-next{
+  position:absolute;
+  width:50px;
+  height:50px;
+  background-color:transparent;
+  background-position: center center;
+  background-repeat: no-repeat;
+  top:30%;
+  -webkit-transform: translateY(20px);
+  -moz-transform: translateY(20px);
+  -ms-transform: translateY(20px);
+  -o-transform: translateY(20px);
+  transform: translateY(20px);
+  color:transparent;
+  border-radius: 50%;
+
+}
+
+.qualified-doctors .slick-prev{
+  left:-20px;
+  background-image: url('../images/goleft_arrow.png');
+}
+
+.qualified-doctors .slick-next{
+  right:-20px;
+  background-image: url('../images/goright_arrow.png');
+}
+
+.qualified-doctors .footer-note{
+  color:#808f94;
+  font-style: italic;
+  font-size: 12px;
+}

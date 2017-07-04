@@ -1,0 +1,62 @@
+.transparent-btn {
+    color: #fff;
+    font-size: 18px;
+    font-weight: 600;
+    display: inline-block;
+    padding: 20px 42px 19px 39px;
+    line-height: 0.8em;
+    text-align: center;
+    text-transform: none;
+    border-radius: 28px;
+    -moz-border-radius: 28px;
+    -ms-border-radius: 28px;
+    -o-border-radius: 28px;
+    -webkit-border-radius: 28px;
+    border: 1px solid #fff;
+    background-color: rgba(255, 255, 255, 0.2);
+    -webkit-transition: all 0.5s;
+    -o-transition: all 0.5s;
+    transition: all 0.5s;
+}
+.transparent-btn:hover {
+    color: #fff;
+    background-color: rgba(255,255,255,0.5);
+}
+
+.centerXY {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+     -moz-transform: translate(-50%, -50%);
+      -ms-transform: translate(-50%, -50%);
+       -o-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+}
+
+.user-headshots {
+  position: relative;
+  bottom: 35%;
+}
+@media screen and (min-width: 768px) {
+  .user-headshots {
+    display: none;
+  }
+}
+
+.user-headshots .headshot img {
+  margin: 0 auto;
+  border-radius: 50%;
+  border: 1px solid white;
+  width: 80%;
+  height: auto;
+  opacity: 0.75;
+}
+.user-headshots .slick-center .headshot img {
+  opacity: 1;
+}
+@media screen and (min-width: 470px) {
+  .user-headshots .headshot img {
+    width: auto;
+  }
+}

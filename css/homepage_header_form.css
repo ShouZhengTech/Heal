@@ -1,0 +1,250 @@
+.l-header .header-content input.zipcode,.l-header .header-content input.phone-field{
+  height:70px;
+  background:transparent;
+  border:2px solid #fff;
+  border-radius: 2px;
+  color:#fff;
+  text-align: left;
+  font-family: 'Open sans';
+  font-size:1.2em;
+  margin:20px;
+  margin-top:0px;
+}
+
+.l-header .header-content input.zipcode::-webkit-input-placeholder,.l-header .header-content input.phone-field::-webkit-input-placeholder{
+  color:#fff;
+  font-family: 'Open sans';
+  font-size:1.2em;
+  text-align: center;
+
+}
+.l-header .header-content input.zipcode:-moz-placeholder,.l-header .header-content input.phone-field:-moz-placeholder{
+  color:#fff;
+  font-family: 'Open sans';
+  font-size:1.2em;
+  text-align: center;
+}
+.l-header .header-content input.zipcode::-moz-placeholder,.l-header .header-content input.phone-field::-moz-placeholder{
+  color:#fff;
+  font-family: 'Open sans';
+  font-size:1.2em;
+  text-align: center;
+}
+.l-header .header-content input.zipcode:ms-input-placeholder,.l-header .header-content input.phone-field:ms-input-placeholder{
+  color:#fff;
+  font-family: 'Open sans';
+  font-size:1.2em;
+  text-align: center;
+}
+
+
+#get_app {
+    margin: 0px 0 39px;
+}
+
+@media (min-width: 768px){
+  #get_app{
+    margin-top:94px;
+  }
+}
+
+#get_app label {
+    font-weight: normal;
+    font-size: 1.3em;
+}
+
+.js #get_app .selectpicker {
+    visibility: hidden;
+}
+
+#get_app .bootstrap-select,#get_app #get_app_button_appstore,#get_app #get_app_button,#get_app #call_button {
+    margin: 0 auto;
+}
+
+#get_app .bootstrap-select{
+  position:relative;
+  vertical-align: middle;
+}
+
+#get_app .bootstrap-select .btn-transparent {
+    background: none;
+    border: 2px solid #fff;
+    font-size: 1.2em;
+    text-transform: none;
+    padding-top: 22px;
+    padding-bottom: 25px;
+    -webkit-transition: all .5s ease 0s;
+    -moz-transition: all .5s ease 0s;
+    -o-transition: all .5s ease 0s;
+    transition: all .5s ease 0s;
+    white-space: nowrap;
+}
+
+#get_app .bootstrap-select .btn-transparent:hover,#get_app .bootstrap-select .btn-transparent:focus,#get_app .bootstrap-select .btn-transparent.focus {
+    color: #fff;
+}
+
+#get_app .bootstrap-select .btn-transparent .caret {
+  border:0px solid transparent;
+  margin:0px;
+  padding:0px;
+  width:15px;
+  height:7px;
+  background:url('../images/dropdown_arrow.png') no-repeat center center;
+  border-top-width: 0px;
+}
+
+
+
+#get_app .bootstrap-select .btn-transparent .caret:before {
+    background: #fff;
+    content: "";
+    display: block;
+    height: 7px;
+    left: 0;
+    position: absolute;
+
+
+}
+
+#get_app .bootstrap-select.dropup .btn-transparent .caret {
+    border-top-width: 0;
+    border-bottom-width: 8px;
+}
+
+#get_app .bootstrap-select.dropup .btn-transparent .caret:before {
+    top: 0;
+    bottom: -8px;
+}
+
+#get_app .bootstrap-select .dropdown-menu .inner>li {
+    font-size: 1.3em;
+}
+
+#get_app .bootstrap-select .dropdown-menu .inner>li>a {
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+#get_app .bootstrap-select .dropdown-menu .inner>li.selected>a,#get_app .bootstrap-select .dropdown-menu .inner>li>a:hover,#get_app .bootstrap-select .dropdown-menu .inner>li>a:focus {
+    background-color: #43b3dd;
+    color: #fff;
+}
+
+@media screen and (max-height:350px) {
+    #get_app_button {
+        margin: 0 !important;
+        max-width: 100% !important;
+    }
+}
+.l-header.index-header{
+    min-height:650px !important;
+}
+
+
+@media screen and (max-height:530px) and (max-width:767px) {
+    .l-header.index-header {
+        min-height: 530px !important;
+    }
+}
+
+@media screen and (max-width:512px),screen and (max-height:460px) {
+    .l-header .header-content {
+        padding: 5% 0 0;
+    }
+
+    #get_app {
+        margin: 5% 0;
+    }
+
+    #get_app .bootstrap-select .btn-transparent {
+        padding-top: 10px;
+        padding-bottom: 12px;
+    }
+
+
+
+    #get_app .bootstrap-select .btn-transparent .caret:before {
+        height: 3px;
+        top: -4px;
+    }
+
+    #get_app .bootstrap-select.dropup .btn-transparent .caret {
+        border-top-width: 0;
+        border-bottom-width: 4px;
+    }
+
+    #get_app .bootstrap-select.dropup .btn-transparent .caret:before {
+        top: 0;
+        bottom: -4px;
+    }
+
+    #get_app .bootstrap-select .dropdown-menu .inner>li {
+        font-size: 1.2em;
+    }
+
+    #get_app .bootstrap-select .dropdown-menu .inner>li>a {
+        padding-top: 3px;
+        padding-bottom: 3px;
+    }
+
+    .l-header .header-content input.zipcode,.l-header .header-content input.phone-field{
+      height:auto;
+      padding-top:10px;
+      padding-bottom:10px;
+      padding-left:25px;
+      padding-right:25px;
+    }
+
+}
+
+.secondary-cta{
+  display: none;
+  visibility: hidden;
+}
+.header-content.B .secondary-cta{
+  display: block;
+  visibility: visible;
+}
+.header-content.B h1{
+  margin:0;
+}
+.header-content.B #get_app{
+  margin-top:0px;
+}
+.header-content.B .secondary-cta .btn-1{
+  margin:0;
+
+}
+.header-content.B .btn-1{
+  margin-bottom:20px !important;
+  margin-top:10px !important;
+}
+.header-content.B #contact_us_button{
+  padding:20px;
+  font-size:20px;
+}
+
+.header-content.B .secondary-cta h1.headline{
+  font-size:26px;
+}
+
+@media (max-width:767px) {
+  .header-content.B .secondary-cta h1.headline{
+    font-size:20px;
+  }
+}
+
+header#full-window-header{
+  min-height: 750px !important;
+}
+@media (max-width:512px) {
+  header#full-window-header{
+    min-height: 650px !important;
+  }
+}
+@media (min-width:768px) {
+  header#full-window-header{
+    min-height: 750px !important;
+  }
+}

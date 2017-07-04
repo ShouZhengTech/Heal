@@ -1,0 +1,476 @@
+<!doctype html>
+<!--[if lt IE 9]>
+<html class="no-js lt-ie9" lang="en">
+   <![endif]-->
+   <!--[if gt IE 9]><!-->
+   <html class="no-js" lang="en">
+      <!--<![endif]-->
+      <head>
+         <meta charset="utf-8" />
+         <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+         <meta http-equiv="X-UA-Compatible" content="IE=edge">
+         <meta name="description" content="Kevin is a dedicated father with a career that keeps him eternally busy at the office. When his daughter came down with a sore throat, he was grateful he had Heal to connect him with a physician that treated her at home. He’ll never again waste precious time battling LA traffic just to get into a doctor’s office.">
+         <meta name="robots" content="noodp,noydir"/>
+         <meta name="apple-itunes-app" content="app-id=961252579">
+         <meta property="og:title" content="Heal - User Story - Kevin and Mackenzie - Toluca Lake, California" />
+         <meta property="og:site_name" content="Heal" />
+         <meta property="og:description" content="Kevin is a dedicated father with a career that keeps him eternally busy at the office. When his daughter came down with a sore throat, he was grateful he had Heal to connect him with a physician that treated her at home. He’ll never again waste precious time battling LA traffic just to get into a doctor’s office.">
+         <meta property="fb:app_id" content="729166527179211" />
+         <meta property="og:image" content="http://heal.com/facebook.jpg" />
+
+         <meta name="p:domain_verify" content="3ecff72b0bd6d3808eec941de8a60099"/>
+         <title>Heal - User Story - Kevin and Mackenzie - Toluca Lake, California</title>
+         <link rel="icon" type="image/png" href="/favicon.png" />
+         <link rel="stylesheet" href="../css/static.css?1496820652">
+         <link rel="stylesheet" href="../css/user-stories.css?1496820652">
+         <link rel="stylesheet" href="../css/common.css?1496820652">
+         <!-- load modernizr blocking to prevent flicker of unstyled content -->
+         <script src="../js/modernizr.min.js?1496820652"></script>
+
+         <!-- inline script.js script loader to save http request, load other js asynchronously as soon as possible -->
+         <script>
+            /*!
+             * $script.js JS loader & dependency manager
+             * https://github.com/ded/script.js
+             * (c) Dustin Diaz 2014 | License MIT
+             */
+            (function(e,t){typeof module!="undefined"&&module.exports?module.exports=t():typeof define=="function"&&define.amd?define(t):this[e]=t()})("$script",function(){function p(e,t){for(var n=0,i=e.length;n<i;++n)if(!t(e[n]))return r;return 1}function d(e,t){p(e,function(e){return!t(e)})}function v(e,t,n){function g(e){return e.call?e():u[e]}function y(){if(!--h){u[o]=1,s&&s();for(var e in f)p(e.split("|"),g)&&!d(f[e],g)&&(f[e]=[])}}e=e[i]?e:[e];var r=t&&t.call,s=r?t:n,o=r?e.join(""):t,h=e.length;return setTimeout(function(){d(e,function t(e,n){if(e===null)return y();e=!n&&e.indexOf(".js")===-1&&!/^https?:\/\//.test(e)&&c?c+e+".js":e;if(l[e])return o&&(a[o]=1),l[e]==2?y():setTimeout(function(){t(e,!0)},0);l[e]=1,o&&(a[o]=1),m(e,y)})},0),v}function m(n,r){var i=e.createElement("script"),u;i.onload=i.onerror=i[o]=function(){if(i[s]&&!/^c|loade/.test(i[s])||u)return;i.onload=i[o]=null,u=1,l[n]=2,r()},i.async=1,i.src=h?n+(n.indexOf("?")===-1?"?":"&")+h:n,t.insertBefore(i,t.lastChild)}var e=document,t=e.getElementsByTagName("head")[0],n="string",r=!1,i="push",s="readyState",o="onreadystatechange",u={},a={},f={},l={},c,h;return v.get=m,v.order=function(e,t,n){(function r(i){i=e.shift(),e.length?v(i,r):v(i,t,n)})()},v.path=function(e){c=e},v.urlArgs=function(e){h=e},v.ready=function(e,t,n){e=e[i]?e:[e];var r=[];return!d(e,function(e){u[e]||r[i](e)})&&p(e,function(e){return u[e]})?t():!function(e){f[e]=f[e]||[],f[e][i](t),n&&n(r)}(e.join("|")),v},v.done=function(e){v([null],e)},v});
+
+            // Minified browser detection, based on http://stackoverflow.com/a/9851769
+            !function(e,o){var t=!!e.opera||navigator.userAgent.indexOf(" OPR/")>=0,n="undefined"!=typeof InstallTrigger,r=Object.prototype.toString.call(e.HTMLElement).indexOf("Constructor")>0,f=!!e.chrome&&!t,i=/*@cc_on!@*/0||!!o.documentMode,c=o.documentElement;c.className=c.className+" "+(t?"opera":n?"firefox":r?"safari":f?"chrome":i?"ie":"")}(window,document);
+         </script>
+         <!-- start loading sitewide (global) js now - do it asynchronously! -->
+         <script>
+            /* Polyfill - Enable matchMedia in browsers without support */
+            if (!window.matchMedia) { $script('../js/media.match.min.js', function () { $script.done('matchMedia'); }); } else { $script.done('matchMedia'); }
+
+            // Simple State Manager (js media queries)
+            $script('../js/ssm.min.js?1496820652', 'ssm');
+
+            // jQuery
+            $script('../js/jquery.min.js?1496820652', 'jQuery');
+
+            $script('../js/classie.js?1496820652','Classie');
+
+            // Scripts with jQuery dependencies
+            $script.ready('jQuery',function(){
+                // Bootstrap
+                $script('../js/bootstrap.min.js?1496820652','Bootstrap');
+                // jQuery UI
+                $script('../js/jquery-ui.min.js?1496820652', 'jQuery UI');
+            });
+
+            // Concatenated jQuery/bootstrap plugins
+            $script.ready(['jQuery', 'jQuery UI', 'Bootstrap'],function(){
+                $script('../js/static.js?1496820652', 'Static');
+                $script('../js/jquery.webui-popover.js?1496820652','jQuery WebUI Popover');
+                $script('../js/bootstrap-select.min.js?1496820652','Bootstrap Select');
+
+                $script('../js/jquery.ui.touch-punch.min.js?1496820652', 'jQuery UI Touch Punch');
+
+                $script('../js/modalEffects.js?1496820652','Modal Effects');
+                $script('../js/metrics.js?1496820652','Metrics');
+
+
+            });
+            $script.ready(['jQuery', 'jQuery UI', 'Bootstrap', 'jQuery WebUI Popover', 'Bootstrap Select'],function(){
+              //$script('js/user.js', 'About');
+            });
+            // Polyfills, etc
+            $script('../js/picturefill.min.js?1496820652','Picturefill');
+            var polyfilter_scriptpath = '/js/';
+
+            $script('../js/cssParser.js?1496820652','CSS Parser');
+            $script('../js/css-filters-polyfill.js?1496820652','CSS Filters Polyfill');
+            $script('../js/retina.min.js?1496820652','Retina');
+
+
+         </script>
+         <!--[if gte IE 9]>
+         <style type="text/css">
+            .gradient {
+            filter: none;
+            }
+         </style>
+         <![endif]-->
+      </head>
+      <body>
+         <header id="full-window-header" class="l-header" id="page-top">
+            <div style="background-image:url(../images/user-stories/kevin-top.jpg)" class="header-image"></div>
+            <div class="color-cover">
+              <div class="centerXY">
+                <h1>Kevin and Mackenzie</h1>
+                <h2>Toluca Lake, California</h2>
+                <a href="#" class="md-trigger modalEffect_5 " data-modal="vid-modal" data-videosrc="https://www.youtube.com/embed/QVSDhqXOfxc" data-reinit="modalEffect_5">
+                  <div class="play"></div>
+                </a>
+              </div>
+            </div>
+            <div class="fixedtop-wrapper">
+               <div class="fluid-container">
+                  <nav class="row">
+                     <div class="logo col-xs-8 col-sm-3">
+                        <a href="/" data-scroll-nav="0">
+                        <i class="logo-icon sprite-logo"></i>
+                        </a>
+                        <div class="center">1-844-644-4325 (HEAL)</div>
+                     </div>
+                     <div class="col-xs-4 col-sm-9">
+                        <nav class="right-top-nav">
+                           <!--span class="hidden-xs phone-number">1-844-644-HEAL</span>
+                           <a href="tel:+18446444325" class="phone-icon">
+                           <i class="img-phone-icon"></i>
+                           </a-->
+                           <a id="topnav-requestdoctor-requestdoctor" href="https://patient.heal.com/register" class="hidden-xs btn-2">Request doctor</a>
+                           <a href="#" class="nav-icon md-trigger" data-modal="menu-modal">
+                           <i class="sprite-nav-icon"></i>
+                           </a>
+                        </nav>
+                     </div>
+                  </nav>
+               </div>
+            </div>
+         </header>
+         <section>
+           <div class="container">
+             <p>Scattered around Kevin’s house are signed movie posters from a life around Hollywood, his daughter’s eye-catching artwork and endless pictures of friends and family. His two big dogs are lying on the floor, exhausted from the long walk their master took them on early this morning. You can tell right away that this driven venture capitalist is defined by so much more than his day job. However, the pull of his career keeps him extremely busy. That’s why he’s so grateful to have been introduced to Heal by a friend who had been lamenting about the annoyance of having to travel to see a great doctor.</p>           </div>
+         </section>
+         <section class="about-quote">
+            <div class="container">
+               <div class="text-center quote-box">
+                  <div class="left-quote">
+                     <img src="../images/leftquotation.png" />
+                  </div>
+                  <div class="quote">
+                     <a target="blank">
+                        <h4>
+                           The experience of having a medical professional come to your home, allowing you to work on time-sensitive projects while waiting, is invaluable.                        </h4>
+                     </a>
+                  </div>
+                  <div class="right-quote">
+                     <img src="../images/rightquotation.png" />
+                  </div>
+               </div>
+            </div>
+         </section>
+         <section>
+           <div class="container">
+             <p>It really wasn’t until his daughter came down with a terrible sore throat that he realized the enormous convenience consolidated within such a tiny app. Instead of having to travel over 30 minutes to his doctor’s office in Beverly Hills, Kevin simply had to tap a button to request a doctor to come to his home. Within an hour there arrived a smiling physician, dressed in a white Heal-branded doctor’s coat, who proceeded to examine Kevin’s sick daughter.</p>           </div>
+         </section>
+                   <section>
+            <div class="container">
+              <img class="inline-image" src="../images/user-stories/kevin-inline.jpg" />
+            </div>
+          </section>
+            
+         <section>
+           <div class="container">
+             <p>&quot;The experience of having a medical professional come to your home, allowing you to work on time-sensitive projects while waiting, is invaluable,&quot; says Kevin. The savvy businessman is thankful he never has to worry about trekking to a doctor’s office to receive medical attention ever again.</p>           </div>
+         </section>
+
+         <section id="more-stories">
+            <div class="more-stories-image"></div>
+            <div class="color-cover">
+               <div class="centerXY">
+                 <h1>More stories from our users</h1>
+                 <a href="/heal-stories/">
+                    <button class="btn transparent-btn">See more</button>
+                 </a>
+               </div>
+            </div>
+         </section>
+         <footer class="l-footer">
+  <input id="patient-portal-link" type="hidden" value="https://patient.heal.com/register" />
+   <div class="fluid-container">
+      <div class="row">
+        <div class="links-container">
+          <ul>
+            <li class="links-group">
+              <ul>
+                <li><strong>Service</strong><hr></li>
+                <li><a id="footer-service-whatisheal"  href="/#what-is-heal">What is Heal</a></li>
+                <li><a id="footer-service-gettheapp"  href="/#get-the-heal-app">Get the app</a></li>
+                <li><a id="footer-service-whentouseheal"  href="/#when-to-use-heal">When to use Heal</a></li>
+                <li><a id="footer-service-whyuseheal" href="/why.php">Why use Heal</a></li>
+                <li><a id="footer-service-doctors"  href="/#qualified-doctors">Doctors</a></li>
+                <li><a id="footer-service-healstories"  href="/#heal-stories">Heal stories</a></li>
+
+              </ul>
+            </li>
+            <li class="links-group">
+              <ul>
+                <li><strong>Company</strong><hr></li>
+                <li><a id="footer-company-aboutus" href="/about.php">About us</a></li>
+                <li><a id="footer-company-blog" href="http://blog.getheal.com/">Blog</a></li>
+                <li><a id="footer-company-pricing"  href="/#simple-pricing">Pricing</a></li>
+                <li><a id="footer-company-press"  href="/#press">Press</a></li>
+                <li><a id="footer-company-careers" href="https://boards.greenhouse.io/heal">Careers</a></li>
+              </ul>
+            </li>
+            <li class="links-group">
+              <ul>
+                <li><strong>Support</strong><hr></li>
+                <li><a id="footer-support-contactus"  href="/#contact">Contact us</a></li>
+                <li><a id="footer-support-help" href="http://help.heal.com/hc/en-us">Help</a></li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+        <div class="links-stores">
+          <a id="footer-appinstall-googleplay" href="http://go.gethe.al/android?">
+            <div class="store android"></div>
+          </a>
+          <a id="footer-appinstall-appstore" href="http://go.gethe.al/ios?">
+            <div class="store ios"></div>
+          </a>
+        </div>
+      </div>
+
+      <hr />
+      <div class="row">
+        <div class="col-sm-6 col-sm-push-3">
+          <ul class="social">
+             <li>
+                <a href="https://www.facebook.com/heal">
+                <i class="sprite-fb_icon"></i>
+                </a>
+             </li>
+             <li>
+                <a href="https://twitter.com/healapp">
+                <i class="sprite-tw_icon"></i>
+                </a>
+             </li>
+             <li>
+                <a href="http://instagram.com/getheal">
+                <i class="sprite-instagram_icon"></i>
+                </a>
+             </li>
+             <!--li>
+                <a href="https://www.pinterest.com/getheal/">
+                <i class="sprite-pinterest_icon"></i>
+                </a>
+             </li-->
+             <li>
+                <a href="https://www.youtube.com/user/healapp">
+                <i class="sprite-yt_icon"></i>
+                </a>
+             </li>
+
+             <!--
+             <li>
+                <a href="https://plus.google.com/111273369815702166490" rel="publisher" style="visibility: hidden;">
+                <i class="sprite-gp_icon"></i>
+                </a>
+             </li>
+             <li class="btn-md-wrapper">
+                <a href="#" class="btn-3 md-trigger" data-modal="get-modal">Get the app</a>
+             </li>
+             -->
+          </ul>
+        </div>
+      </div>
+
+       <div class="row">
+         <div class="col-sm-12" align="center">
+            <div class="copyright-wrapper">
+               <ul class="copyright">
+                  <li>
+                     Copyright &copy; Heal, Inc. 2015
+                  </li>
+                  <li>
+                     <a href="/privacy.php">
+                     Privacy Policy
+                     </a>
+                  </li>
+                  <li>
+                     <a href="/practices.php">
+                     Privacy Practices
+                     </a>
+                  </li>
+                  <li>
+                     <a href="/terms.php">
+                     Terms
+                     </a>
+                  </li>
+                  <li>
+                     <a href="/nondiscrimination.php">
+                     Nondiscrimination Notice
+                     </a>
+                  </li>
+               </ul>
+            </div>
+         </div>
+      </div>
+      <div class="row">
+         <div class="col-sm-6 col-sm-push-3">
+            <a target="_blank" href="http://builtinla.com">
+              <i class="built-in-la sprite-builtla_icon"></i>
+            </a>
+         </div>
+       </div>
+   </div>
+</footer>
+
+<script src="//load.sumome.com/" data-sumo-site-id="ade846f18db1878eb344fd28170c45f90c022dd53934e7f00a375f6547d106f4" async="async"></script>
+<script src="//cdn.optimizely.com/js/4564940031.js"></script>
+
+         <div class="md-modal md-effect-12 heal-modal" id="menu-modal">
+   <div class="md-content-wrapper">
+      <div class="md-close-wrapper">
+         <button class="md-close">
+         <i class="sprite-close_icon"></i>
+         </button>
+      </div>
+      <div class="md-content">
+        <div class="links-container">
+          <ul>
+            <li class="links-group">
+              <ul>
+                <li><strong>Service</strong><hr></li>
+                <li><a id="topnav-service-whatisheal"  href="/#what-is-heal">What is Heal</a></li>
+                <li><a id="topnav-service-getthehealapp"  href="/#get-the-heal-app">Get the app</a></li>
+                <li><a id="topnav-service-whentouseheal"  href="/#when-to-use-heal">When to use Heal</a></li>
+                <li><a id="topnav-service-whyuseheal" href="/why.php">Why use Heal</a></li>
+                <li><a id="topnav-service-doctors"  href="/#qualified-doctors">Doctors</a></li>
+                <li><a id="topnav-service-healstories"  href="/#heal-stories">Heal stories</a></li>
+
+              </ul>
+            </li>
+            <li class="links-group">
+              <ul>
+                <li><strong>Company</strong><hr></li>
+                <li><a id="topnav-company-aboutus" href="/about.php">About us</a></li>
+                <li><a id="topnav-company-blog" href="http://healhq.tumblr.com/">Blog</a></li>
+                <li><a id="topnav-company-pricing"  href="/#simple-pricing">Pricing</a></li>
+                <li><a id="topnav-company-press"  href="/#press">Press</a></li>
+                <li><a id="topnav-company-careers" href="https://boards.greenhouse.io/heal">Careers</a></li>
+              </ul>
+            </li>
+            <li class="links-group">
+              <ul>
+                <li><strong>Support</strong><hr></li>
+                <li><a id="topnav-support-contactus"  href="/#contact">Contact us</a></li>
+                <li><a id="topnav-support-help" href="http://help.heal.com/">Help</a></li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+        <div class="links-footer">
+         <p> Copyright &copy; Heal, Inc. 2015</p>
+       </div>
+      </div>
+   </div>
+</div>
+         <!--div class="md-modal md-effect-12" id="get-modal" data-iframeid="get-heal-app-frame" data-iframesrc="https://forms.heal.com/getheal/get_heal_app.html" data-iframewidth="100%" data-iframeheight="450px">
+            <div class="md-content-wrapper">
+               <div class="md-close-wrapper">
+                  <button class="md-close">
+                  <i class="sprite-close_icon"></i>
+                  </button>
+               </div>
+               <div class="md-content">
+                  <! --iframe id="get-heal-app-frame" frameborder="0" src="" data-src="https://forms.heal.com/getheal/get_heal_app.html" width="100%" height="450"></iframe- ->
+               </div>
+            </div>
+         </div-->
+         <!--div class="md-modal md-effect-12" id="get-modal2" data-iframeid="request_invite_frame" data-iframesrc="https://forms.heal.com/let_me_know.html" data-iframewidth="100%" data-iframeheight="450px">
+            <div class="md-content-wrapper">
+               <div class="md-close-wrapper">
+                  <button class="md-close">
+                  <i class="sprite-close_icon"></i>
+                  </button>
+               </div>
+               <div class="md-content">
+                  <! --iframe id="request_invite_frame" frameborder="0" src="" data-src="https://forms.heal.com/request_invite.html" width="100%" height="450"></iframe- - >
+               </div>
+            </div>
+         </div-->
+         <!-- <div class="md-modal md-effect-12" id="get-modal3" data-iframeid="let_me_know_frame" data-iframesrc="https://forms.heal.com/let_me_know.html" data-iframewidth="100%" data-iframeheight="450px">
+            <div class="md-content-wrapper">
+               <div class="md-close-wrapper">
+                  <button class="md-close">
+                  <i class="sprite-close_icon"></i>
+                  </button>
+               </div>
+               <div class="md-content"> -->
+                  <!--iframe id="let_me_know_frame" frameborder="0" src="" data-src="https://forms.heal.com/let_me_know.html" width="100%" height="450"></iframe-->
+               <!-- </div>
+            </div>
+         </div>
+         <div class="md-modal md-effect-12" id="get-modal4" data-iframeid="let_me_know_frame" data-iframesrc="https://forms.heal.com/let_me_know_android.html" data-iframewidth="100%" data-iframeheight="450px">
+            <div class="md-content-wrapper">
+               <div class="md-close-wrapper">
+                  <button class="md-close">
+                  <i class="sprite-close_icon"></i>
+                  </button>
+               </div>
+               <div class="md-content"> -->
+                  <!--iframe id="let_me_know_frame" frameborder="0" src="" data-src="https://forms.heal.com/let_me_know.html" width="100%" height="450"></iframe-->
+               <!-- </div>
+            </div>
+         </div>
+         <div class="md-modal md-effect-12" id="get-modal5" data-iframeid="let_me_know_frame" data-iframesrc="../zip.php" data-iframewidth="100%">
+       		 <div class="md-content-wrapper">
+       				<div class="md-close-wrapper">
+       					 <button class="md-close">
+       					 <i class="sprite-close_icon"></i>
+       					 </button>
+       				</div>
+       				<div class="md-content"> -->
+       					 <!--iframe id="let_me_know_frame" frameborder="0" src="" data-src="https://forms.heal.com/let_me_know.html" width="100%" height="450"></iframe-->
+       				<!-- </div>
+       		 </div>
+       	</div> -->
+         <div class="md-modal-video md-effect-12" id="vid-modal">
+           <div class="md-close-wrapper hidden">
+              <button class="md-close">
+              <i class="sprite-close_icon"></i>
+              </button>
+           </div>
+            <div class="md-content-wrapper md-content-wrapper-video">
+               <div class="md-content">
+                  <!--iframe id="third-vid" class="vid-modal-size" width="500px" height="300px" src="" data-src="https://www.youtube.com/embed/YBCIyo8MrvU" frameborder="0"></iframe-->
+               </div>
+            </div>
+         </div>
+         <div class="md-overlay"></div>
+         <!-- the overlay element -->
+         <!-- Segment.io -->
+<script type="text/javascript">
+  !function(){var analytics=window.analytics=window.analytics||[];if(!analytics.initialize)if(analytics.invoked)window.console&&console.error&&console.error("Segment snippet included twice.");else{analytics.invoked=!0;analytics.methods=["trackSubmit","trackClick","trackLink","trackForm","pageview","identify","group","track","ready","alias","page","once","off","on"];analytics.factory=function(t){return function(){var e=Array.prototype.slice.call(arguments);e.unshift(t);analytics.push(e);return analytics}};for(var t=0;t<analytics.methods.length;t++){var e=analytics.methods[t];analytics[e]=analytics.factory(e)}analytics.load=function(t){var e=document.createElement("script");e.type="text/javascript";e.async=!0;e.src=("https:"===document.location.protocol?"https://":"http://")+"cdn.segment.com/analytics.js/v1/"+t+"/analytics.min.js";var n=document.getElementsByTagName("script")[0];n.parentNode.insertBefore(e,n)};analytics.SNIPPET_VERSION="3.0.1";
+  analytics.load("wMmIZ7jB3ZzEpgBmcbVeowzKUIZNnWOY");
+  analytics.page('Heal Stories Viewed');
+  analytics.ready(function (){
+    ga('require', 'linker'); ga('linker:autoLink', ["patient.heal.com", "heal.com"]);
+  });
+  }}();
+</script>
+         <!--
+
+            <script type="text/javascript">
+                var _chatlio = _chatlio || [];
+                (function() {
+                    var a, b, c;
+                    a = function(f) {
+                        return function() {
+                            _chatlio.push([f].concat(Array.prototype.slice.call(arguments, 0)))
+                        }
+                    };
+                    b = ["identify", "track"];
+                    for (c = 0; c < b.length; c++) {
+                        _chatlio[b[c]] = a(b[c])
+                    };
+                    var t = document.createElement('script'),
+                            s = document.getElementsByTagName('script')[0];
+                    t.async = true;
+                    t.setAttribute('data-widget-id', '0f89620e-036b-4ad8-6d8f-59757f017c3b');
+                    t.setAttribute('data-embed-version', '1.1');
+                    t.src = 'https://w.chatlio.com/w.chatlio-widget.js';
+                    s.parentNode.insertBefore(t, s);
+                })();
+            </script>
+          -->
+
+
+      </body>
+   </html>

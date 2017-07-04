@@ -1,0 +1,131 @@
+body {
+  color: #808c93;
+}
+
+header {
+  height: 410px;
+  margin-bottom: 48px;
+}
+
+.quote-box{
+  margin: 0 auto;
+  display:table;
+}
+
+.color-cover {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(75, 86, 92, 0.45);
+}
+@media (max-width: 767px) {
+  header.l-header {
+    height: 260px;
+    min-height: inherit !important;
+  }
+}
+
+header .color-cover h1 {
+  font-size: 40px;
+  text-align: center;
+  padding-bottom: 0px;
+  margin-bottom: 0px;
+}
+header .color-cover h2 {
+  text-align: center;
+  padding-top:0px;
+  margin-top:0px;
+  font-weight: 600;
+}
+header .color-cover .play{
+  background:url('../images/play_icn.png') no-repeat center center;
+  background-size: 90px 90px;
+  width:100px;
+  height:100px;
+  margin:0 auto;
+}
+header .color-cover .centerXY{
+  top:55%;
+}
+@media (max-width: 767px) {
+  header .color-cover h1 {
+    font-size: 26px;
+  }
+  header .color-cover .play{
+    background-size: 45px 45px;
+    width:50px;
+    height:47px;
+  }
+}
+
+.header-image {
+  min-width: 100%;
+  max-height: 100%;
+  background-repeat: no-repeat;
+  /*background-position: center -80px;*/
+  background-size: cover;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: -101;
+}
+@media (max-width: 767px) {
+  .header-image {
+    /*max-height: 260px;
+    background-position: 44% 26%;
+    background-size: 220%;*/
+    background-position: center center;
+  }
+}
+
+.about-quote h4 {
+  margin: 0 0;
+  font-size: 26px;
+  font-weight: normal;
+  color: #808c93;
+  display: inline-block;
+}
+@media screen and (max-width:512px),screen and (max-height:460px) {
+  .about-quote h4 {
+    font-size: 18px;
+  }
+}
+
+#more-stories {
+  margin-top: 40px;
+  height: 240px;
+  position: relative;
+  color: white;
+  text-align: center;
+}
+
+#more-stories .color-cover h1 {
+  margin-top: 0;
+  margin-bottom: 32px;
+  font-weight: 600;
+}
+
+#more-stories .transparent-btn {
+  padding: 14px 20px;
+}
+
+.more-stories-image {
+  min-width: 100%;
+  height: 100%;
+  background: url(../images/work_bg.jpg) no-repeat;
+  background-size: cover;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: -101;
+}
+
+.inline-image {
+  width: 100%;
+}
