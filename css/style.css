@@ -9,6 +9,7 @@
 /*Typography*/
 
 
+
 /*Colors*/
 
 
@@ -3986,7 +3987,7 @@ button.navbar-toggle:hover {
 }
 
 .l-header .logo i {
-    height: 42px;
+    height: 50px;
 }
 
 .l-header .header-content {
@@ -5270,7 +5271,7 @@ section.contact {
 
 .btn-1 {
     display: inline-block;
-    background-color: #f05a6d;
+    background-color: #67f3a5;
     border-radius: 50px;
     -moz-border-radius: 50px;
     -ms-border-radius: 50px;
@@ -5282,7 +5283,7 @@ section.contact {
 }
 
 .btn-1:hover {
-    background-color: #ec2b44;
+    background-color: #46e78d;
 }
 
 .btn-2,
@@ -5294,7 +5295,7 @@ section.contact {
     -ms-border-radius: 50px;
     -o-border-radius: 50px;
     -webkit-border-radius: 50px;
-    border: 1px solid #f05a6d;
+    border: 1px solid #46e78d;
     padding: 10px 17px;
     font-weight: 600;
     -webkit-transition: all 0.5s;
@@ -5303,7 +5304,7 @@ section.contact {
 }
 
 .btn-2 {
-    background-color: #f05a6d;
+    background-color: #46e78d;
     color: #fff;
 }
 
