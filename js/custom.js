@@ -15,6 +15,8 @@ $(document).ready(function() {
 
   }//disable for Mobile
 
+  $(".rslides").responsiveSlides();
+
   var ua = navigator.userAgent.toLowerCase();
   if ((Modernizr.touch && $(document).width()<=995) || ua.includes("ios") || ua.includes("iphone") || ua.includes("android") ) {
     $('.bgvid-wrapper').remove();

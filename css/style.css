@@ -4237,7 +4237,7 @@ z-index: -100;
 .bgvid-wrapper {
     background: url(../video/video_poster.jpg) no-repeat;
     background-size: cover;
-    position: fixed;
+    position: absolute;
     right: 0;
     bottom: 0;
     min-width: 100%;
@@ -4249,6 +4249,25 @@ z-index: -100;
 
 @media (max-width: 800px) {
     .bgvid-wrapper {
+        display: none !important;
+    }
+}
+
+.bgvid-wrapper2 {
+    background: url(../images/slider_bg_doctor.jpg) no-repeat;
+    background-size: cover;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: -101;
+}
+
+@media (max-width: 800px) {
+    .bgvid-wrapper2 {
         display: none !important;
     }
 }
