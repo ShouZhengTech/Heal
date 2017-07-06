@@ -3444,7 +3444,7 @@ a:link,
 a:hover,
 a:active,
 a:visited {
-    color: #3ab4df;
+    color: #46e78d;
 }
 
 a:link,
@@ -3876,8 +3876,8 @@ i {
 .btn-2i:hover,
 .btn-2i:active,
 .btn-2i:visited {
-    color: #f05a6d;
-}
+    color: #46e78d;
+}	
 
 body.index .fixedtop-wrapper .btn-2 {
     display: none;
@@ -4304,7 +4304,7 @@ section h3 {
     font-size: 30px;
     line-height: 1em;
     font-weight: 600;
-    color: #f05a6d;
+    color: #46e78d;
 }
 
 @-webkit-keyframes fadeIn {
@@ -4417,7 +4417,7 @@ section h3 {
 
 .what-is-heal h4 {
     margin: 28px 0 20px 0;
-    color: #43b3dd;
+    color: #46e78d;
     font-weight: 600;
     font-size: 18px;
 }
@@ -4500,7 +4500,7 @@ section h3 {
 }
 
 .simple-pricing h4 {
-    color: #3ab4df;
+    color: #46e71d;
 }
 
 .simple-pricing .price-bg {
@@ -5271,7 +5271,7 @@ section.contact {
 
 .btn-1 {
     display: inline-block;
-    background-color: #67f3a5;
+    background-color: #46e78d;
     border-radius: 50px;
     -moz-border-radius: 50px;
     -ms-border-radius: 50px;
@@ -5283,7 +5283,7 @@ section.contact {
 }
 
 .btn-1:hover {
-    background-color: #46e78d;
+    background-color: #26d071;
 }
 
 .btn-2,
@@ -7350,7 +7350,7 @@ perspective effects (not including the modals and the overlay).
 
 .heal-modal .md-content .links-group ul li hr {
     margin: 10px 0px;
-    background-color: #3ab4df;
+    background-color: #46e71d;
     height: 2px;
 }
 
