@@ -1300,7 +1300,7 @@ html {
 body {
     font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
     font-size: 14px;
-    line-height: 1.428571429;
+    line-height: 3;
     color: #333333;
     background-color: #fff;
 }
@@ -4302,7 +4302,7 @@ section.contact .anchor {
 
 section h3 {
     font-size: 30px;
-    line-height: 1em;
+    line-height: 0em;
     font-weight: 600;
     color: #46e78d;
 }
@@ -4572,6 +4572,10 @@ section h3 {
         ;
     }
 }
+.right-column-inner p{
+	position: relative;
+	left: 62px;
+}
 
 .get-the-heal-app .links-stores {
     float: right;
@@ -4592,8 +4596,8 @@ section h3 {
 .get-the-heal-app .links-stores a .store, .header-content .links-stores a .store {
     width: 45%;
     /*min-width:200px;*/
-    margin-right: 5%;
-    height: 60px;
+    margin-right: 45%;
+    height: 200px;
     display: inline-block;
     float: right;
     background-repeat: no-repeat;
@@ -4616,9 +4620,9 @@ section h3 {
     background: url('../images/store-ios-default.png') no-repeat left center;
 }
 
-.get-the-heal-app .links-stores a:hover .ios, .header-content .links-stores a:hover .ios {
+/*.get-the-heal-app .links-stores a:hover .ios, .header-content .links-stores a:hover .ios {
     background-image: url('../images/store-ios-hover.png');
-}
+}*/
 
 .get-the-heal-app .links-stores a .android, .header-content .links-stores a .android {
     background: url('../images/store-android-default.png') no-repeat left center;
@@ -4815,7 +4819,7 @@ section.contact {
 .l-footer .links-stores {
     float: right;
     width: 50%;
-    margin-top: 50px;
+    margin-top: 20px;
 }
 
 .l-footer .links-stores a .store {
@@ -4835,9 +4839,9 @@ section.contact {
 }
 
 .l-footer .links-stores a .store {
-    width: 50%;
+    width: 20%;
     /*min-width:200px;*/
-    height: 90px;
+    height: 200px;
     display: inline-block;
     float: right;
     margin-bottom: 20px;
@@ -4847,9 +4851,9 @@ section.contact {
     background: url('../images/store-ios-default.png') no-repeat center center;
 }
 
-.l-footer .links-stores a:hover .ios {
+/*.l-footer .links-stores a:hover .ios {
     background-image: url('../images/store-ios-hover.png');
-}
+}*/
 
 .l-footer .links-stores a .android {
     background: url('../images/store-android-default.png') no-repeat center center;
@@ -4923,7 +4927,7 @@ section.contact {
 
 @media (min-width: 1000px) {
     .l-footer .links-stores a .store {
-        background-size: auto;
+       /* background-size: auto;*/
     }
 }
 
@@ -4931,7 +4935,7 @@ section.contact {
     height: 1px;
     border: none;
     margin: 0 0 22px 0;
-    background: #36a7d1;
+    background: #FFFFFF;
 }
 
 .l-footer ul {
