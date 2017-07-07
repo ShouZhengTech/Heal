@@ -1300,7 +1300,7 @@ html {
 body {
     font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
     font-size: 14px;
-    line-height: 3;
+    line-height: 1.2;
     color: #333333;
     background-color: #fff;
 }
@@ -3877,7 +3877,7 @@ i {
 .btn-2i:active,
 .btn-2i:visited {
     color: #46e78d;
-}	
+}
 
 body.index .fixedtop-wrapper .btn-2 {
     display: none;
@@ -4304,7 +4304,7 @@ section h3 {
     font-size: 30px;
     line-height: 0em;
     font-weight: 600;
-    color: #46e78d;
+    color: #fd7400;
 }
 
 @-webkit-keyframes fadeIn {
@@ -5275,7 +5275,7 @@ section.contact {
 
 .btn-1 {
     display: inline-block;
-    background-color: #46e78d;
+    background-color: #fd7400;
     border-radius: 50px;
     -moz-border-radius: 50px;
     -ms-border-radius: 50px;
@@ -5287,7 +5287,7 @@ section.contact {
 }
 
 .btn-1:hover {
-    background-color: #26d071;
+    background-color: #e06000;
 }
 
 .btn-2,
@@ -5299,7 +5299,7 @@ section.contact {
     -ms-border-radius: 50px;
     -o-border-radius: 50px;
     -webkit-border-radius: 50px;
-    border: 1px solid #46e78d;
+    border: 1px solid #fd7400;
     padding: 10px 17px;
     font-weight: 600;
     -webkit-transition: all 0.5s;
@@ -5308,12 +5308,12 @@ section.contact {
 }
 
 .btn-2 {
-    background-color: #46e78d;
+    background-color: #fd7400;
     color: #fff;
 }
 
 .btn-2:hover {
-    background-color: #f05a6d;
+    background-color: #e06000;
     color: #fff;
 }
 
