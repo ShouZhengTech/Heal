@@ -1300,7 +1300,7 @@ html {
 body {
     font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
     font-size: 14px;
-    line-height: 1.2;
+    line-height: 1.428571429;
     color: #333333;
     background-color: #fff;
 }
@@ -4302,7 +4302,7 @@ section.contact .anchor {
 
 section h3 {
     font-size: 30px;
-    line-height: 0em;
+    line-height: 1em;
     font-weight: 600;
     color: #fd7400;
 }
@@ -4805,10 +4805,10 @@ section.contact {
 */
 
 .l-footer {
-    background-color: #46E78D;
+    background-color: #FFF;
     min-height: 183px;
     padding-top: 42px;
-    color: #fff;
+    color: #333;
 }
 
 .l-footer .links-container {
@@ -4991,7 +4991,7 @@ section.contact {
 .l-footer ul a:hover,
 .l-footer ul a:active,
 .l-footer ul a:visited {
-    color: #fff;
+    color: #333;
 }
 
 .l-footer ul a:hover {
@@ -7354,7 +7354,7 @@ perspective effects (not including the modals and the overlay).
 
 .heal-modal .md-content .links-group ul li hr {
     margin: 10px 0px;
-    background-color: #46e71d;
+    background-color: #fff;
     height: 2px;
 }
 
