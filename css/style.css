@@ -4573,8 +4573,8 @@ section h3 {
     }
 }
 .right-column-inner p{
-	position: relative;
-	left: 62px;
+  position: relative;
+  left: 62px;
 }
 
 .get-the-heal-app .links-stores {
@@ -4640,9 +4640,9 @@ section h3 {
 .article-container iframe{
   position: relative;
 
-	line-height: 1.5em;
+  line-height: 1.5em;
 
-	-webkit-transform: translateZ(0);
+  -webkit-transform: translateZ(0);
 }
 
 @media (max-width:767px) {

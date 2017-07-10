@@ -573,17 +573,17 @@ section .sprite-arrow_down{
   padding-bottom: 100px;
 }
 /*.myHoverActiveButton {
-	@include retina-sprite(signIn, $hover: true, $active: true);
+  @include retina-sprite(signIn, $hover: true, $active: true);
 }
 
 .myHoverButton {
-	@include retina-sprite(signIn, $hover: true);
+  @include retina-sprite(signIn, $hover: true);
 }
 
 .myActiveButton {
-	@include retina-sprite(signIn, $active: true);
+  @include retina-sprite(signIn, $active: true);
 }
 
 .myBoringButton {
-	@include retina-sprite(signIn);
+  @include retina-sprite(signIn);
 }*/
