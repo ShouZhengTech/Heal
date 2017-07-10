@@ -4168,6 +4168,7 @@ section.get-the-heal-app .arrow-down-warapper {
 
 @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) and (-webkit-min-device-pixel-ratio: 1) {
     .video.photo .color-cover {
+        z-index: -100;
         background-color: rgba(75, 86, 92, 0.6);
     }
 }
