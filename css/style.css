@@ -3434,6 +3434,7 @@ body {
 
 p {
     margin-bottom: 24px;
+    font-size: 1.5em;
 }
 
 a {
@@ -4575,7 +4576,7 @@ section h3 {
 }
 .right-column-inner p{
   position: relative;
-  left: 62px;
+  left: 20px;
 }
 
 .get-the-heal-app .links-stores {
