@@ -17,7 +17,6 @@ $(document).ready(function() {
   $('.tabs li a').on('click',function(e){
     var tab = $(e.currentTarget);
     selectTab(tab.attr('data-tab-name'));
-
   });
 
   $('.square').on('touchstart', function () {
@@ -26,7 +25,11 @@ $(document).ready(function() {
   });
 
   var tab = String(window.location).split("#")[1];
-  if(tab && $.inArray(tab,tabNames)){
+  if(typeof(tab) == "undefined"){
+    selectTab("sick")
+  }
+
+  if(tab || $.inArray(tab,tabNames)){
     selectTab(tab);
   }
 

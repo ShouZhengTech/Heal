@@ -4469,6 +4469,10 @@ section h3 {
     padding-top: 10px;
 }
 
+.when-to-use-heal div.learn-more p{
+  font-size: 1.5em;
+}
+
 .when-to-use-heal a:hover div.learn-more {
     margin-left: 10px;
 }
