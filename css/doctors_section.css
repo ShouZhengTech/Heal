@@ -80,7 +80,7 @@
   font-size: 18px;
   font-weight: lighter;
   font-style: italic;
-  color:#43b3dd;
+  color:#46e78d;
 }
 .qualified-doctors .bios .bio p{
   font-size: 16px;
@@ -163,7 +163,7 @@
   }
 
   .qualified-doctors .bios .bio.slick-active .headshot>img{
-    border: 3px solid #f16676;
+    border: 3px solid #46e78d;
   }
 
   .qualified-doctors .slick-prev, .qualified-doctors .slick-next{

@@ -4512,7 +4512,7 @@ section h3 {
 .simple-pricing .price-bg {
     background: url('../images/price.png') no-repeat right;
     background-size: 100% auto;
-    height: 400px;
+    height: 450px;
 }
 
 @media (max-width: 767px) {
@@ -4653,7 +4653,8 @@ section h3 {
 
 @media (max-width:767px) {
     .get-the-heal-app .links-stores a .store, .header-content .links-stores a .store {
-        background-position: center center;
+        background-position:center;
+        background-size: 65%;
     }
 }
 
@@ -4838,6 +4839,7 @@ section.contact {
         float: none;
         width: 100%;
         margin-top: 0px;
+
     }
     .l-footer .links-stores a .store {
         max-width: none;
@@ -4855,6 +4857,7 @@ section.contact {
 
 .l-footer .links-stores a .ios {
     background: url('../images/store-ios-default.png') no-repeat center center;
+    background-size: 80%;
 }
 
 /*.l-footer .links-stores a:hover .ios {
