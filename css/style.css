@@ -4537,6 +4537,12 @@ section h3 {
     background-size: 100% auto;
     min-height: 600px;
 }
+.get-the-heal-doctor  {
+    background: url('../images/doctor_bg.jpg') no-repeat center center;
+    background-color: white;
+    background-size: 100% auto;
+    min-height: 600px;
+}
 
 @media (max-width: 767px) {
     .get-the-heal-app {
@@ -4550,7 +4556,11 @@ section h3 {
     color: #fff;
     padding-top: 10px;
 }
-
+.get-the-heal-doctor,
+.get-the-heal-doctor h3 {
+    color: #fff;
+    padding-top: 10px;
+}
 @media (min-width: 768px) {
     .get-the-heal-app,
     .get-the-heal-app h3 {
@@ -4580,7 +4590,7 @@ section h3 {
 }
 .right-column-inner p{
   position: relative;
-  left: 20px;
+  left: 0px;
 }
 
 .get-the-heal-app .links-stores {
@@ -4603,13 +4613,23 @@ section h3 {
     width: 45%;
     /*min-width:200px;*/
     margin-right: 45%;
-    height: 200px;
+    height: 200px;©
     display: inline-block;
     float: right;
     background-repeat: no-repeat;
     margin-bottom: 20px;
 }
-
+.get-the-heal-doctor .links-stores a .store, .header-content .links-stores a .store {
+    width: 45%;
+    /*min-width:200px;*/
+    margin-right: 45%;
+    height: 200px;©
+    display: inline-block;
+    float: right;
+    background-repeat: no-repeat;
+    margin-bottom: 20px;
+    margin-top: -100px;
+}
 .header-content .links-stores{
   max-width: 450px;
   margin:0 auto;
@@ -4623,6 +4643,9 @@ section h3 {
 }
 
 .get-the-heal-app .links-stores a .ios, .header-content .links-stores a .ios {
+    background: url('../images/store-ios-default.png') no-repeat left center;
+}
+.get-the-heal-doctor .links-stores a .ios, .header-content .links-stores a .ios {
     background: url('../images/store-ios-default.png') no-repeat left center;
 }
 
@@ -4672,6 +4695,30 @@ section h3 {
 
 @media (min-width: 1000px) {
     .get-the-heal-app .links-stores a .store, .header-content .links-stores a .store {
+        background-size: 85%;
+    }
+}
+@media (max-width:767px) {
+    .get-the-heal-doctor .links-stores a .store, .header-content .links-stores a .store {
+        background-position:center;
+        background-size: 65%;
+    }
+}
+
+@media (max-width: 492px) {
+    .get-the-heal-doctor .links-stores a .store, .header-content .links-stores a .store {
+        background-size: 90%;
+    }
+}
+
+@media (min-width: 768px) {
+    .get-the-heal-doctor .links-stores a .store, .header-content .links-stores a .store {
+        background-size: 90%;
+    }
+}
+
+@media (min-width: 1000px) {
+    .get-the-heal-doctor .links-stores a .store, .header-content .links-stores a .store {
         background-size: 85%;
     }
 }
@@ -7273,7 +7320,7 @@ perspective effects (not including the modals and the overlay).
 #get-modal5 .md-content ul a:hover,
 #get-modal6 .md-content ul a:hover,
 #get-modal7 .md-content ul a:hover {
-    color: #f05a6d;
+    color: #fd7400;
     text-decoration: none;
 }
 
